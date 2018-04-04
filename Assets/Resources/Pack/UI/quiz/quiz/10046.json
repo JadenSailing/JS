@@ -1,0 +1,107 @@
+{
+    "quizId": 10046,
+    "quizTitle": "Which Season Best Describes Your Soul?",
+    "quizImageUrl": "titleImage//10046.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Pick a vacation getaway",
+            "questionImageUrl": "questionImage//10046//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hawaii"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Aspen"
+                }  ,
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "San Francisco"
+                } ,
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Paris"
+                }      ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What is your favorite clothing accessory?",
+            "questionImageUrl": "questionImage//10046//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Scarf"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Purse"
+                } ,
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hat"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Belt"
+                }           ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Where is your happy place?",
+            "questionImageUrl": "questionImage//10046//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "With family"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Curled up in bed with a book"
+                } ,
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Relaxing on the beach"
+                }  ,
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hiking through the forest"
+                }             ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Your soul is Winter",
+            "resultImageUrl": "questionImage//10046//resultImage_1.jpg",
+            "resultDescription": "Winter best describes your soul! You are a thoughtful, intuitive person who treasures time with loved ones over everything else in life."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Your soul is Fall",
+            "resultImageUrl": "questionImage//10046//resultImage_2.jpg",
+            "resultDescription": "Fall best describes your soul! You're at your happiest surrounded by the beauty of nature and are open to the changes life brings."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Your soul is Summer",
+            "resultImageUrl": "questionImage//10046//resultImage_3.jpg",
+            "resultDescription": "Summer best describes your soul! You are an outgoing, brave individual who is always looking for the next adventure. "
+        }    ]
+}

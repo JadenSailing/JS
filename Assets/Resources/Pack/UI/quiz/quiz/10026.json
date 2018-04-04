@@ -1,0 +1,125 @@
+{
+    "quizId": 10026,
+    "quizTitle": "What Villain Are You Like When You're Angry?",
+    "quizImageUrl": "titleImage//10026.png",
+    "quizDescription": "Are you as vile as Voldemort himself? Or perhaps as sinister as the Joker? C'mon, we can go on this villainous journey together!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "First! We need to choose an evil weapon from this overly creepy shack, pick whichever you like the most.",
+            "questionImageUrl": "questionImage//10026//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Knife"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Dark Magic"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pistol"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hands"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "We're at the Villain Real Estate Office, choose your evil lair!",
+            "questionImageUrl": "questionImage//10026//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Cave"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Disguised as Regular House"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Asylum"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Oh, it's Superman's son! He's lost, should we help him?",
+            "questionImageUrl": "questionImage//10026//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Let’s help!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I mean…he’s a kid,I guess"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Kill it while he’s gone!"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "Running into Batman has worked up my appetite, what should we eat?",
+            "questionImageUrl": "questionImage//10026//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A Unicorn"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A Human"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Nourishment is for the weak!"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Steak"
+                }
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Voldemort",
+            "resultImageUrl": "questionImage//10026//resultImage_1.jpg",
+            "resultDescription": "How wonderful it is to see you Vooooooooldemort? How are you? Have you gotten rid of Harry Potter yet? Oh? Well you'll get him soon! Voldemort does not have a good bone in his body. He can slither around like the snake he is on any day and try to fool you, but I know better, Voldy! You've taken a path of pure evil through our journey.But fear not! I understand how complex and misunderstood a villain can be, so you have a friend in me... well, as long as you don't try shooting lightning at me or anything.You're the Chairperson of the Evil Committee. Let the meeting begin! And don't forget to grab a cup of Unicorn Coffee, it's gluten free~!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Hannibal Lecter",
+            "resultImageUrl": "questionImage//10026//resultImage_2.jpg",
+            "resultDescription": "Can you say “psycho”? No, seriously... sound it out with me, “Psssssssssycho.” I won't be inviting you to any of the villain slumber parties! I mean, we're evil, but we're not THIS evil.Can you also say for me *takes a few steps back* “Rough childhood”? You have taken quite the man eating, serial killer, and revenge driven psychomaniac journey through our villainous story, huh? You'd be a villain of the ages, I promise!Thanks for taking the journey with me... but be sure not to let anyone make you angry. Or at least let me leave before they do, hahaha."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "The Joker",
+            "resultImageUrl": "questionImage//10026//resultImage_3.jpg",
+            "resultDescription": "Perhaps evoked best by the late and ridiculously talented Heath Ledger, the Joker is undeniably the foundation of everything villainous. Whether it's his bone-chilling cackle or whimsically terrifying look in his eyes, he has made nothing less but the ultimate statement for villains all over.As a villain, you would be dark, utterly insane, and so scary that people laugh at you instead of screaming. You've made some haunting decisions on this journey, but you're probably laughing already, aren't you?If I smell even the slightest bit of laughing gas I'm coming after you, so don't you even dare! "
+        }
+    ]
+}

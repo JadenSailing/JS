@@ -1,0 +1,106 @@
+{
+    "quizId": 10023,
+    "quizTitle": "How Evil Are You?",
+    "quizImageUrl": "titleImage//10023.png",
+    "quizDescription": "Are you a good or an evil person? Let's find out by this quiz.",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Do you lie often?",
+            "questionImageUrl": "questionImage//10023//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes, quite often"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rarely"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "If someone bullies you, you will ...",
+            "questionImageUrl": "questionImage//10023//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never forget"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never mind"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Revenge"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never been bullied"
+                }
+
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "To climb your career ladder, what method would you rather choose?",
+            "questionImageUrl": "questionImage//10023//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "My ability"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "My relationships"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Start my own company"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not listed"
+                }
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "You are 60% evil",
+            "resultImageUrl": "questionImage//10023//resultImage_1.jpg",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "You are 30% evil",
+            "resultImageUrl": "questionImage//10023//resultImage_2.jpg",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "You are 40% evil",
+            "resultImageUrl": "questionImage//10023//resultImage_3.jpg",
+            "resultDescription": ""
+        }
+    ]
+}

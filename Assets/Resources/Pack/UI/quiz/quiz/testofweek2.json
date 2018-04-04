@@ -1,0 +1,111 @@
+{
+    "quizId": 20002,
+    "quizTitle": "Where Will You Meet Your Soulmate?",
+    "quizImageUrl": "titleImage//testofweek2.png",
+    "quizDescription": "",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Where is your favorite romantic spot?",
+            "questionImageUrl": "questionImage//testofweek2//questionImage_1.png",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "The weirder the better"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Prague"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Barcelona"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Iceland"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What's the first thing you notice in someone you fancy?",
+            "questionImageUrl": "questionImage//testofweek2//questionImage_1.png",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Funny and talkative"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Interesting"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sharp dresser"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Intelligent and sensitive"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "If you could have any superpower, what would it be?",
+            "questionImageUrl": "questionImage//testofweek2//questionImage_1.png",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Reading minds"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Flight"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Slowing down time"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Invisibility"
+                }
+            ]
+        }
+],
+        "resultArray": [
+            {
+                "resultId": 1,
+                "resultTitle": "Through friends",
+                "resultImageUrl": "questionImage//testofweek2//questionImage_1.png",
+                "resultDescription": "You’re going to meet your life-partner through a mutual friend. Friends are always good to lend you stuff you want - old books and CDs, for example - but sometimes they really come up with the goods. How long have they suspected that you and their friend’s-cousin’s-friend would be a match made in heaven? Who knows, but you owe them a drink all the same!"
+            },
+            {
+                "resultId": 2,
+                "resultTitle": "Online",
+                "resultImageUrl": "questionImage//testofweek2//questionImage_1.png",
+                "resultDescription": "Everyone’s at it these days - whether its Tinder, OKCupid or Plenty of Fish, online dating isn’t just for causal hookups anymore. You’ve got a greater chance of matching your niche interests with someone else, and messaging online lets you think about what you’re about to type - perfect if you’re a nervous, blurt-out-anything type. Anyway - match away, the right one’s just around the corner!"
+            },
+            {
+                "resultId": 3,
+                "resultTitle": "At Work",
+                "resultImageUrl": "questionImage//testofweek2//questionImage_1.png",
+                "resultDescription": "You will meet your summer fling at work! He will fall in love with your determination to succeed and positive attitude. He will also be hard-working and the two of you will push each together to be the best versions of yourselves."
+            }
+        ]
+    }

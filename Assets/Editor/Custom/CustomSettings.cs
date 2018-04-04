@@ -65,6 +65,8 @@ public static class CustomSettings
 
         _GT(typeof(LuaHelper)),
 
+        _GT(typeof(NGUITools)),
+
 
         _GT(typeof(Debugger)).SetNameSpace(null),          
 

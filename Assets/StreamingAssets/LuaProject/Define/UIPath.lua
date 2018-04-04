@@ -8,3 +8,5 @@
 UIPath = {};
 UIPath.PlayerHeadUI = {id = 1, res = 10001, uiName = "PlayerHeadUI", layer = UILayer.Base};
 UIPath.PlayerAttr = {id = 2, res = 10002, uiName = "PlayerAttr", layer = UILayer.Pop};
+
+UIPath.QuizMain = {id = 3, res = 10003, uiName = "QuizMain", layer = UILayer.Pop};

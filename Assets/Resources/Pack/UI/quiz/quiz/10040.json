@@ -1,0 +1,140 @@
+{
+    "quizId": 10040,
+    "quizTitle": "How Powerful Are You Really?",
+    "quizImageUrl": "titleImage//10040.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Do you believe you're special?",
+            "questionImageUrl": "questionImage//10040//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "110 PERCENT"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "IN SOME WAYS,SURE"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "PRETTY MUCH THE OPPOSITE"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Are you proud of where you came from?",
+            "questionImageUrl": "questionImage//10040//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "YES"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "YES,BUT I HAVEN`T ALWAYS BEEN"
+                },
+               {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "NO"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Have you ever had to make a big sacrifice?",
+            "questionImageUrl": "questionImage//10040//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "YES"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "MORE LIKE A SMALL ONE"
+                },
+              {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "NO,NOT REALLY"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "A lion doesn't lose sleep over ________.",
+            "questionImageUrl": "questionImage//10040//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "…THE OPINIONS OF SHEEP,DF COURSE"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "…ANYTHING"
+                },
+               {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "…THE GAZELLE THAT GOT AWAY"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "Do you believe that people are generally good?",
+            "questionImageUrl": "questionImage//10040//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "YES,ABSOLUTELY"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I`D LIKE TO…"
+                },
+               {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "NOPE!"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Powerful Beyond Measure",
+            "resultImageUrl":"questionImage//10040//resultImage_1.jpg",
+            "resultDescription":"You're powerful beyond measure. It's not an easy life — with this much power comes great responsibility. Still, we have faith that you'll figure it out."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Remotely Powerful",
+            "resultImageUrl":"questionImage//10040//resultImage_2.jpg",
+            "resultDescription":"You're remotely powerful, which means you have potential you have yet to meet. Keep working at it. Your time will come."
+        },
+        {
+            "resultId": 3,
+            "resultTitle":"Not Powerful at All",
+            "resultImageUrl":"questionImage//10040//resultImage_3.jpg",
+            "resultDescription":"You're not powerful at all. Sorry, but true power isn't for everyone. You have your talents, though, and we're sure you know what they are."
+        }
+    ]
+}

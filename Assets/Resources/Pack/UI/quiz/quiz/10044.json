@@ -1,0 +1,94 @@
+{
+    "quizId": 10044,
+    "quizTitle": "Which Completely Random Job Would You Actually Be Good At?",
+    "quizImageUrl": "titleImage//10044.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "How often do you watch or read the news?",
+            "questionImageUrl": "questionImage//10044//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "We’re expecting"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                }          ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Are you more of an indoor or outdoor person?",
+            "questionImageUrl": "questionImage//10044//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Indoor"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Outdoor"
+                }            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "How often do you eat out?",
+            "questionImageUrl": "questionImage//10044//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "All the time"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Every once in a while"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pretty much never"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Political Reporter",
+            "resultImageUrl": "questionImage//10044//resultImage_1.jpg",
+            "resultDescription": "So many of us are over politics, but you are invested in the news cycle like it's your job. How about you make it your job by becoming a political reporter and engrossing yourself in all aspects of media? You're trustworthy, well-spoken, and deeply knowledgable, so it only makes sense."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Beekeeper",
+            "resultImageUrl": "questionImage//10044//resultImage_2.jpg",
+            "resultDescription": "The environment is important to you and there's nothing you love more than taking in nature with the great outdoors. Life as a beekeeper is not only rewarding (you get to sell a product), but also educational (you get to educate people on the importance of sustainability). It'd truly be a win-win for you. And don't worry, those beekeeper suits keep the stingers away."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Nail Technician",
+            "resultImageUrl": "questionImage//10044//resultImage_3.jpg",
+            "resultDescription": "There's no denying that you are one of the most artistic and creative people in your group of friends, so why not apply these talents to the salon floor as a nail technician? You get to come up with original designs, pamper your clientele, and get unlimited access to nearly every shade of your favorite designer polish. Sounds like a good time to us."
+        } ,
+        {
+            "resultId": 4,
+            "resultTitle": "Food Stylist",
+            "resultImageUrl": "questionImage//10044//resultImage_4.jpg",
+            "resultDescription": "If you're not eating food, you don't mind playing with it. And since you're also creative and great with photography, the role of a food stylist would suit you well. Just be sure to not eat the props. You'd immediately get fired."
+        }    ]
+}

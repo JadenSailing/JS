@@ -1,0 +1,109 @@
+{
+    "quizId": 10036,
+    "quizTitle": "How Many Kids Are You Going To Have?",
+    "quizImageUrl": "titleImage//10036.png",
+    "quizDescription": "Ever wished you could see into the future and know how many kids you'll have eventually? We can offer you the next best thing...this completely scientific future-telling quiz!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Do you have children already?",
+            "questionImageUrl": "questionImage//10036//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "We’re expecting"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                }          ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "How important is 'Me Time' to you?",
+            "questionImageUrl": "questionImage//10036//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "What’s 'Me Time’?"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "One night a week is enough"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I need it everyday"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I love being around people"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Everyone needs space"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Where would you rather raise a family?",
+            "questionImageUrl": "questionImage//10036//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Residential area of city"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Downtown area of city"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Small town of the countryside"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "In the suburbs"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Four kids",
+            "resultImageUrl": "questionImage//10036//resultImage_1.jpg",
+            "resultDescription": "Four children is the perfect amount for you! Quite the handful! Family is very important to you and will become the focus of your life, if it isn't already"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "One kid",
+            "resultImageUrl": "questionImage//10036//resultImage_2.jpg",
+            "resultDescription": "You only need one child to make your life complete!! Believe us, one can be plenty (ask your parents)"
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Twins",
+            "resultImageUrl": "questionImage//10036//resultImage_3.jpg",
+            "resultDescription": "Two for the price of one! You are so lucky. Yes, it may seem difficult handling two at a time, but you're just the kind of person who can handle it!"
+        }    ]
+}

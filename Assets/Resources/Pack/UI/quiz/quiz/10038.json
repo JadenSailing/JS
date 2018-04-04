@@ -1,0 +1,180 @@
+{
+    "quizId": 10038,
+    "quizTitle": "This Color Test Will Reveal What Zodiac Sign You Really Are",
+    "quizImageUrl": "titleImage//10038.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What's your favorite color in the rainbow?",
+            "questionImageUrl": "questionImage//10038//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "RED"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "YELLOW"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "GREEN"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "BLUE"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "PURPLE"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "ORANGE"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What do you think of these cabinets?",
+            "questionImageUrl": "questionImage//10038//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "SUPER FUN!WANT THEM!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I LIKE IT,BUT WOULDN`T DO IT IN MY KITCHEN"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "THOSEAREAWFUL!"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What shade are your bedroom walls?",
+            "questionImageUrl": "questionImage//10038//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "GREY"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "WHITE"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "GREEN"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "BLUE"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "PINK"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "ORANGE"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What do you think of this painting?",
+            "questionImageUrl": "questionImage//10038//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "BORING,NEEDS MORE PIZZAZZ"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "SO TRANQUIL,I WANT IT"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "PRETTY,BUT I WOULDN`T BUY IT"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "What color is your wallet?",
+            "questionImageUrl": "questionImage//10038//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "BROWN"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A FUN BRIGHT COLOR LIKE RED OR ORANGE"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "A PALE COLOR LIKE PINK PINK OR LAVENDER"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A SUBTLE NEUTRAL LIKE GREY"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "BLACK"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Cancer",
+            "resultImageUrl": "questionImage//10038//resultImage_1.jpg",
+            "resultDescription": "Sensitive, kind and shrewed. Like the colors of water and the moon, you are ocean green and silver!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Taurus",
+            "resultImageUrl": "questionImage//10038//resultImage_2.jpg",
+            "resultDescription": "You are refinement and gentleness personified.Pale blue and mauve are yourc olors!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Scorpio",
+            "resultImageUrl": "questionImage//10038//resultImage_3.jpg",
+            "resultDescription": "You are passion and emotion. Your colors are burgundy and maroon!"
+        }
+    ]
+}

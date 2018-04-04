@@ -1,0 +1,132 @@
+{
+    "quizId": 10011,
+    "quizTitle": "This Ink-Blot Test Will Reveal Your Biggest Fear In Life",
+    "quizImageUrl": "titleImage//10011.png",
+    "quizDescription": "In psychology, projective tests - like the ink-blot - have been used for decades to assess a person's deepest, darkest fears and thoughts. Find out what yours is!",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What did you see first in this picture?",
+            "questionImageUrl": "questionImage//10011//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Two people dancing"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Nothing at all"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "An X-ray image"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Two animals touching"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What do you see in this image?",
+            "questionImageUrl": "questionImage//10011//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sea life"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sex organs"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Caterpillars"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A man with a mustache"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What do you see in this image?",
+            "questionImageUrl": "questionImage//10011//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Two lungs"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A butterfly"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "A woman’s face"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Two people bending over"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Keep on going...",
+            "questionImageUrl": "questionImage//10011//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Bears climbing"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Aribcage"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Female sex organs"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A butterfly"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Your Biggest Fear is The Supernatural",
+            "resultImageUrl": "",
+            "resultDescription": "Based on what you saw in the ink-blot images your biggest fear is the supernatural. The haunting sensation that you're not alone in the dark or an eerie sound at night petrify you the most. You're an extremely intuitive person and have a unique ability to see and feel things that other's don't - which heightens your fear even more. Perhaps your fear is not unwarranted...."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Your Biggest Fear is Sickness",
+            "resultImageUrl": "",
+            "resultDescription": "Based on what you saw in the ink-blot images, your biggest fear is sickness. You're subconsciously terrified that you will catch something and die. You're a complete health freak and take wonderful care of your body. You are strong and athletic and fear the day of becoming physically weak and sick. The lightest cold can have you spinning in fear. Try not to worry about it because you take care of yourself and are incredibly healthy!"
+        }
+    ]
+}

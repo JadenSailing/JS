@@ -1,0 +1,51 @@
+{
+    "quizId": 10016,
+    "quizTitle": "What You See First Will Determine How Good Or Evil You Are",
+    "quizImageUrl": "titleImage//10016.png",
+    "quizDescription": "Your choice will reveal how much GOOD and EVIL you actually have in you!",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What's the first thing you see in this image?",
+            "questionImageUrl": "questionImage//10016//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A boat"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A man"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "The ocean"
+                }
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "You are 100% Evil !",
+            "resultImageUrl": "questionImage//10016//questionImage_1.jpg",
+            "resultDescription": "But of course, it's not to say you're actually 100% malicious. Your straightforwardness may come across as sort of evil to someone who doesn't know you well.It seems that, in today's society, confidence can be a double-edged sword! Just make sure you don't lose your temper over frivolous things, because you know better than that!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "You are 80% Good and 20% Evil !",
+            "resultImageUrl": "questionImage//10016//questionImage_1.jpg",
+            "resultDescription": "You are 80% GOOD and 20% EVIL!You have a warm and caring personality. You like attending social gatherings and meeting new people, and you are a great sympathizer as well. Your playfulness is charming, because you never cross the line. Everyone feels comfortable around you and you can always make them laugh."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "You are 100% Good !",
+            "resultImageUrl": "questionImage//10016//questionImage_1.jpg",
+            "resultDescription": "You are 100% GOOD!You have a gentle nature and you can never refuse a favor that's asked of you. You always strive to achieve justice, and you take care to maintain peace. You're known to put others before you. You're the first to help out those in need, and you're of service to others even if it means personal sacrifice on your part. People that know you all say that you're the nicest person they know. Just be aware that there are some people out there who might try to take advantage of your kindness."
+        }
+    ]
+}

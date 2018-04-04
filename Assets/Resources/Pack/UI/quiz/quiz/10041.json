@@ -1,0 +1,102 @@
+{
+    "quizId": 10041,
+    "quizTitle": "Who Hurt You?",
+    "quizImageUrl": "titleImage//10041.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "How long have you been suffering?",
+            "questionImageUrl": "questionImage//10041//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Since birth"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Since the divorce"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Since the spice girls broke up"
+                }          ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Would you rather:",
+            "questionImageUrl": "questionImage//10041//questionImage_2.jpeg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Share your feelings"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Eat carbs"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What's a bigger deal breaker in a relationship?",
+            "questionImageUrl": "questionImage//10041//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "No money"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No personality"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "The best way to express sadness is by throwing yourself onto the nearest object and crying hysterically.",
+            "questionImageUrl": "questionImage//10041//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "True"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "False"
+                }
+            ]
+        }
+
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Librarians",
+            "resultImageUrl": "questionImage//10041//resultImage_1.jpg",
+            "resultDescription": "The folks at your local library are extremely well read, but they don’t get the concept of “sharing is caring.” After months of slowly making your way to the top of the wait list, you might find that your turn was skipped. That’s no surprise given how the diabolical, ruthless members of the Book Gang like to use their shushing and classy eyewear to take whatever book they desire. Forget about common decency! These punk-ass book jockeys only care about themselves."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Your parents’ crippling expectations",
+            "resultImageUrl": "questionImage//10041//resultImage_2.jpg",
+            "resultDescription": "Just like the clarinet you abandoned in the attic, your parents think your potential has been collecting dust since your elementary school days. Even when you try your hardest, it feels like you can never please them. But just think of how dull your life would be if you didn’t have people who always believed you were capable of more. Sometimes love is pain, and your parents sure know how to love the crap out of you."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "A burrito",
+            "resultImageUrl": "questionImage//10041//resultImage_3.jpg",
+            "resultDescription": "You can inhale a burrito faster than Guy Fieri can say “Welcome to Flavortown.” All that cheesy, bean-y, meaty, guacamole goodness is too hard to resist, but it also comes with a side of stomach cramps and diarrhea. Who’s got your back when you’re at yoga or trying to stay awake during your morning classes? It’s definitely not that burrito your body’s trying to digest. So be careful the next time you decide to follow your dreams."
+        }    ]
+}

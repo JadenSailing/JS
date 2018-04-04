@@ -1,0 +1,191 @@
+{
+    "quizId": 10019,
+    "quizTitle": "Which Cat Breed Are You?",
+    "quizImageUrl": "titleImage//10019.png",
+    "quizDescription": "This quiz will tell you exactly which cat breed you are most like!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+                       {
+                       "questionId": 1,
+                       "questionTitle": "You get home from long day at school/ work, you relax by...",
+                       "questionImageUrl": "questionImage//10019//questionImage_1.jpg",
+                       "answerArray": [
+                                       {
+                                       "answerId": 1,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Eating candy and seeing how many marshmallows you can fit in your mouth at once"
+                                       },
+                                       {
+                                       "answerId": 2,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Lying on a bench/hammock and reading your favorite book"
+                                       },
+                                       {
+                                       "answerId": 3,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Kicking off your shoes and watching Netflix"
+                                       },
+                                       {
+                                       "answerId": 4,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Texting your BF/GF"
+                                       },
+                                       {
+                                       "answerId": 5,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Going on social media and stalking your favorite celebs"
+                                       },
+                                       {
+                                       "answerId": 6,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Stroking your cat/dog/bunny etc"
+                                       }
+                                       ]
+                       },
+                       {
+                       "questionId": 2,
+                       "questionTitle": "WHO'S YOUR FAVORITE POPSTAR?",
+                       "questionImageUrl": "questionImage//10019//questionImage_2.jpeg",
+                       "answerArray": [
+                                       {
+                                       "answerId": 1,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Sam Smith"
+                                       },
+                                       {
+                                       "answerId": 2,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Ed Sheehan"
+                                       },
+                                       {
+                                       "answerId": 3,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Meghan Trainor"
+                                       },
+                                       {
+                                       "answerId": 4,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Taylor Swift "
+                                       },
+                                       {
+                                       "answerId": 5,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Sia"
+                                       },
+                                       {
+                                       "answerId": 6,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Ariana Grande"
+                                       },
+                                       {
+                                       "answerId": 7,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Other"
+                                       }
+                                       ]
+                       },
+                       {
+                       "questionId": 3,
+                       "questionTitle": "Would you rather?",
+                       "questionImageUrl": "questionImage//10019//questionImage_3.jpg",
+                       "answerArray": [
+                                       {
+                                       "answerId": 1,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Never eat chocolate again"
+                                       },
+                                       {
+                                       "answerId": 2,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Never wear shoes again"
+                                       }
+                                       ]
+                       },
+                       {
+                       "questionId": 4,
+                       "questionTitle": "MUSIC, DANCE OR DRAMA?",
+                       "questionImageUrl": "questionImage//10019//questionImage_4.jpg",
+                       "answerArray": [
+                                       {
+                                       "answerId": 1,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Music"
+                                       },
+                                       {
+                                       "answerId": 2,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Dance"
+                                       },
+                                       {
+                                       "answerId": 3,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "Drama"
+                                       },
+                                       {
+                                       "answerId": 4,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "I hate all of them"
+                                       }
+                                       ]
+                       },
+                       {
+                       "questionId": 5,
+                       "questionTitle": "And finally, what letter of the alphabet does your first name start with?",
+                       "questionImageUrl": "questionImage//10019//questionImage_5.jpg",
+                       "answerArray": [
+                                       {
+                                       "answerId": 1,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "A-G"
+                                       },
+                                       {
+                                       "answerId": 2,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "H-M"
+                                       },
+                                       {
+                                       "answerId": 3,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "N-S"
+                                       },
+                                       {
+                                       "answerId": 4,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "T-Z"
+                                       },
+                                       {
+                                       "answerId": 5,
+                                       "answerImageUrl": "",
+                                       "answerDescription": "What has this got to do with anything?"
+                                       }
+                                       ]
+                       }
+                       ],
+    "resultArray": [
+                    {
+                    "resultId": 1,
+                    "resultTitle": "Siamese",
+                    "resultImageUrl": "questionImage//10019//resultImage_1.jpg",
+                    "resultDescription": "You're very smooth; it may take you time to bond with someone, but once you do, you have something special."
+                    },
+                    {
+                    "resultId": 2,
+                    "resultTitle": "Ragdoll",
+                    "resultImageUrl": "questionImage//10019//resultImage_2.jpg",
+                    "resultDescription": "You are normally calm and laid- back, but you can be quite bubbly at times."
+                    },
+                    {
+                    "resultId": 3,
+                    "resultTitle": "Tabby",
+                    "resultImageUrl": "questionImage//10019//resultImage_3.jpg",
+                    "resultDescription": "You are kind and friendly, and sometimes all you want is a cuddle!"
+                    },
+                    {
+                    "resultId": 4,
+                    "resultTitle": "Bengal",
+                    "resultImageUrl": "questionImage//10019//resultImage_4.jpg",
+                    "resultDescription": "You pride your appearance and spend a lot of time getting ready in the mornings! You are also quite proud of yourself and your family."
+                    }
+                    ]
+}

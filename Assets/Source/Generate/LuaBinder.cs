@@ -18,6 +18,7 @@ public static class LuaBinder
 		UISpriteWrap.Register(L);
 		TestProtolWrap.Register(L);
 		LuaHelperWrap.Register(L);
+		NGUIToolsWrap.Register(L);
 		LuaInterface_DebuggerWrap.Register(L);
 		Singleton_ResourceManager_LuaWrap.Register(L);
 		UIWidgetWrap.Register(L);

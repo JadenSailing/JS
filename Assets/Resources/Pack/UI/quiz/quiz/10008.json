@@ -1,0 +1,149 @@
+{
+    "quizId": 10008,
+    "quizTitle": "Can We Guess If You're Gay Or Straight?",
+    "quizImageUrl": "titleImage//10008.png",
+    "quizDescription": "We know!",
+    "quizGroupName":"Love Compatibility",
+    "quizGroupIcon":"groupIcon//love.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Is your index finger shorter than your ring finger?",
+            "questionImageUrl": "questionImage//10008//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Batman or Superman?",
+            "questionImageUrl": "questionImage//10008//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Superman"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Batman"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "When did you have your first kiss?",
+            "questionImageUrl": "questionImage//10008//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Younger than 10 years old"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "14-16years old"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "20+years old"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "10-13years old"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "17-19years old"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Pick your chocolate",
+            "questionImageUrl": "questionImage//10008//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Dark chocolate"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hazelnut chocolate"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "White chocolate"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Mint chocolate"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Milk chocolate"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Other"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "Can you read the number? x",
+            "questionImageUrl": "questionImage//10008//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "10"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "26"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "12"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Straight",
+            "resultImageUrl": "questionImage//10008//resultImage_1.jpg",
+            "resultDescription": "Our super scientific test shows that you are in fact straight.Are we right? Tell us in the comments."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Gay",
+            "resultImageUrl": "questionImage//10008//resultImage_2.jpg",
+            "resultDescription": "Our scientific test shows that you are in fact gay. Are we right? Tell us in the comments!"
+        }
+    ]
+}

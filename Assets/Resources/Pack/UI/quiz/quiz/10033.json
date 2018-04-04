@@ -1,0 +1,148 @@
+{
+    "quizId": 10033,
+    "quizTitle": "What wedding dress is for you?",
+    "quizImageUrl": "titleImage//10033.png",
+    "quizDescription": "find out what kind of wedding dress best suits your personality and expresses who you are",
+    "quizGroupName":"Love Compatibility",
+    "quizGroupIcon":"groupIcon//love.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "How fun are you?.",
+            "questionImageUrl": "questionImage//10033//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "So fun"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pretty fun"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not very fun"
+                }            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "what is your favorite color?",
+            "questionImageUrl": "questionImage//10033//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green&red"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Black&white"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow&orange"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pink&blue"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What is your favorite season?",
+            "questionImageUrl": "questionImage//10033//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Spring"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Summer"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Fall"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Winter"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Are you comfortable with your body?",
+            "questionImageUrl": "questionImage//10033//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not really"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Definitely"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m ok with it"
+                }
+]
+},
+        {
+            "questionId": 5,
+            "questionTitle": "Indoors or outdoors",
+            "questionImageUrl": "questionImage//10033//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Outdoors"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Doesn’t matter"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Indoors"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "sparkly princess dress",
+            "resultImageUrl": "questionImage//10033//resultImage_1.jpg",
+            "resultDescription": "You're very romantic and super kind. you are also a kid at heart and love to have fun. You are pretty smart and almost always figure out a way to stay on peoples good side. You have a fantastic personality and aren't afraid to let it show"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "flowy simple A-line dress",
+            "resultImageUrl": "questionImage//10033//resultImage_2.jpg",
+            "resultDescription": "you are very down to earth and are extremely gentle and kind. you know what's and aren't afraid to stand up to bullies. you don't care about fitting in and shouldn't let anyone change you. you're quite creative and like to do thing on your own before asking for help. you are very romantic and wise so don't let anyone tell you otherwise."
+        }   ,
+        {
+            "resultId": 3,
+            "resultTitle": "lace mermaid dress",
+            "resultImageUrl": "questionImage//10033//resultImage_3.jpg",
+            "resultDescription": "you've got a great body and aren't afraid to show it off. you are a little high maintenance but that just means you know what you like. you tend to be the centre of attention and love when the eyes are on you. you have such a bubbly personality so don't let anything get in the way of that."
+        }  ]
+}

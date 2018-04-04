@@ -1,0 +1,107 @@
+{
+    "quizId": 10006,
+    "quizTitle": "How Dirty Is Your Mind According To The Kinsey Scale??",
+    "quizImageUrl": "titleImage//10006.png",
+    "quizDescription": "This sexuality scale determines what kind of sexual orientation you really are! Ever been confused about your sexual orientation? This is the test for you!",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What did you see first in this picture?",
+            "questionImageUrl": "questionImage//10006//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Noses"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Women’s bodies"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Ancient building columns"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What did you see first?",
+            "questionImageUrl": "questionImage//10006//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A glass"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "An naked woman"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "An open window"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A cat"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What is more dominant in the picture?",
+            "questionImageUrl": "questionImage//10006//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A tiger's face"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Woman's body."
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What did you see first?",
+            "questionImageUrl": "questionImage//10006//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Naked women"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Mountains"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Exclusively homosexual",
+            "resultImageUrl": "questionImage//10006//resultImage_1.jpg",
+            "resultDescription": "You are a 6 on the Kinsey Scale which means that your sexual orientation is predominantly homosexual. You are exclusively attracted to members of the same sex and it is incredibly unlikely that you will fantasize about or have a sexual encounter with a member of the opposite gender."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Straight as an arrow",
+            "resultImageUrl": "questionImage//10006//resultImage_2.jpg",
+            "resultDescription": "You are a 0 on the Kinsey scale meaning that you are exclusively attracted to members of the opposite sex and have never had any sexual experiences or fantasies about the opposite gender. You prefer to stick solely with the opposite sex and are not likely to experience any bisexual or homosexual encounters in the future."
+        }
+    ]
+}

@@ -111,11 +111,23 @@ namespace LuaInterface
             stateMap.Add(L, this);                        
             OpenToLuaLibs();
             ToLua.OpenLibs(L);
+            OpenCJSON();
             OpenBaseLibs();
             LuaSetTop(0);
             InitLuaPath();
             Debugger.Log("Init lua state cost: {0}", Time.realtimeSinceStartup - time);
-        }        
+        }     
+        
+        private void OpenCJSON()
+        {
+            LuaState luaState = this;
+            luaState.LuaGetField(LuaIndexes.LUA_REGISTRYINDEX, "_LOADED");
+            luaState.OpenLibs(LuaDLL.luaopen_cjson);
+            luaState.LuaSetField(-2, "cjson");
+
+            luaState.OpenLibs(LuaDLL.luaopen_cjson_safe);
+            luaState.LuaSetField(-2, "cjson.safe");
+        }   
 
         void OpenBaseLibs()
         {            

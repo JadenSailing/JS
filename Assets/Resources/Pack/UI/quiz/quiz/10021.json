@@ -1,0 +1,191 @@
+{
+    "quizId": 10021,
+    "quizTitle": "How Rare Is Your Personality?",
+    "quizImageUrl": "titleImage//10021.png",
+    "quizDescription": "This simple five-image-test reveals a lot about you.",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Image 1: What did you see FIRST?",
+            "questionImageUrl": "questionImage//10021//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw an explosion"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw two hands"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a tree"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw hands and a brain"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw nothing"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw something else"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Image 2: What did you see FIRST?",
+            "questionImageUrl": "questionImage//10021//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw an upside-down man"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw shoes"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a man’s reflection"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I immediately noticed the problem with this image"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a man’s reflection and his shoes"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw something else"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Image 3: What did you see FIRST?",
+            "questionImageUrl": "questionImage//10021//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw trees and a fractured rock"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw the mirror and the reflection"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I only saw the little boy"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw something else"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Image 4: What did you see FIRST?",
+            "questionImageUrl": "questionImage//10021//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a brain"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw hands"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw something else"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "Image 5: What did you see FIRST?",
+            "questionImageUrl": "questionImage//10021//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw the trees"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a globe"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a sky"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw a girl floating"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "I saw something else"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "1% of the population:You are a fighter and a perfectionist!",
+            "resultImageUrl": "questionImage//10021//resultImage_1.jpg",
+            "resultDescription": "How rare is your personality? Only 1% of the population has your strong mind, soul and spirit. Your most defining traits: You set high standards and you achieve them (yet you don't see it), you are a control freak and you are flawless in everything you do. You have a strength and fighting spirit that few can match. You're strong, determined, dedicated, and willing to sacrifice for what you believe in. You are incredibly courageous and fight hard to achieve your goals. This type of warrior spirit goes along with your perfectionism. You always try to do the best work possible, and you inspire others to do the same. Possessing this combination of traits, has taken a long toll on your life, and we think you should try to relax a little, even take a short vacation, you will feel better, trust us!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "2% of the population: You are a charismatic superstar!",
+            "resultImageUrl": "questionImage//10021//resultImage_2.jpg",
+            "resultDescription": "How rare is your personality? Only 2% of the population has your charisma and charm. Your most defining traits: Remarkable presence, empathy that makes you approachable and a perfect balance between self confidence and humility. You simply radiate charisma, personality and individuality, making others feel completely relaxed around you. You're loving, compassionate, and you have the remarkable ability to empower others. You're a magnet that draws others towards you, and you're absolutely irresistible. You ooze success and triumph is written in the stars for you. Keep it up, you're a true star."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "7% of the population: You are highly creative and artistic!",
+            "resultImageUrl": "questionImage//10021//resultImage_3.jpg",
+            "resultDescription": "How rare is your personality? Only 7% of the population are as creative as you are. Your most defining traits: Originality, imagination and curiosity. You are a very creative, imaginative and passionate person. You love to experiment with various forms of creations, and challenge yourself at every opportunity. One of the most important things in your life is your alone time. During that time, you let your mind flourish and your creativity go wild. Without that creating outlet, you could go practically insane.Your creative nature helps you to always look at the positive side of life, always find the mental strength to move forward, and never look back."
+        },
+        {
+            "resultId": 4,
+            "resultTitle": "0.1% of the population: You have the personality of a winner!",
+            "resultImageUrl": "questionImage//10021//resultImage_4.jpg",
+            "resultDescription": "How rare is your personality? Only 0.1% of the most intelligent and talented people on earth can be identified as winners! You know some of them: Benjamin Franklin, Leonardo Da Vinci, Walt Disney, Bill Gates and J.K.Rowling. Your most defining traits: Multiple talents, exceptionally high IQ, original way of thinking and natural leadership skills. You have a powerful presence and you tend to be a natural leader. You have a strong intellect, incredible self discipline and at times a bit of a critical outlook on the world. You always stick to your guns, and when you know you're right.... well, you're right, and there's just no stopping you! You are part of an elite group of people, and that's pretty amazing."
+        }
+    ]
+}

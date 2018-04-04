@@ -1,0 +1,146 @@
+{
+    "quizId": 10013,
+    "quizTitle": "Which Marvel Character Are You?",
+    "quizImageUrl": "titleImage//10013.png",
+    "quizDescription": "Have you ever dreamed to be Marvel superhero? Then answer these questions to make that dream come true.",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What's your favorite color?",
+            "questionImageUrl": "questionImage//10013//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Blue"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Black  "
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Red"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What's your favorite weapon?",
+            "questionImageUrl": "questionImage//10013//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Fists"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sword."
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Chain"
+                },
+
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Guns"
+                },
+
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rocket Launcher"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What would you use as a vehicle?",
+            "questionImageUrl": "questionImage//10013//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Exo suit"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Motorcycle"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Jet"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "My feet"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "Would you work with someone or alone?",
+            "questionImageUrl": "questionImage//10013//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Alone"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "With Someone"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Ghost Rider",
+            "resultImageUrl": "",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Deadpool",
+            "resultImageUrl": "",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Iron Man",
+            "resultImageUrl": "",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 4,
+            "resultTitle": "Silver Surfer",
+            "resultImageUrl": "",
+            "resultDescription": ""
+        }
+    ]
+}

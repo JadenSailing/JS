@@ -1,0 +1,119 @@
+{
+    "quizId": 10028,
+    "quizTitle": "The Most Innocent Test In The World Will Tell You How Pure Your Soul Is",
+    "quizImageUrl": "titleImage//10028.png",
+    "quizDescription": "How pure are you really?",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "If this little thing had just stolen your lunch, how would you feel?",
+            "questionImageUrl": "questionImage//10028//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "It needs to eat too"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Just a cute little thing"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Angry"
+                }            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "This little boy is...",
+            "questionImageUrl": "questionImage//10028//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Innocent"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Obsessed "
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Adorable"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "This squirrel...",
+            "questionImageUrl": "questionImage//10028//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Wants to get drunk"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Is stealing"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Is so thirsty"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "At what age did you discover Santa clause was not real?",
+            "questionImageUrl": "questionImage//10028//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "6-12"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not sure"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "2-5"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "He isn’t real?"
+                }
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Smokey Soul",
+            "resultImageUrl": "questionImage//10027//resultImage_1.jpg",
+            "resultDescription": "You have reached a humble age where you understand the world we live in and your innocence has been tainted by reality. You are a trooper and your soul is still pure but it is also real. No-one will take you for a fool and you know exactly how to handle any situation as you have seen and done it all."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Pretty Puritan",
+            "resultImageUrl": "questionImage//10027//resultImage_2.jpg",
+            "resultDescription": "You are a pure human being and believe in doing the right thing in the right situation. You understand when things are better left unsaid and understand that pure innocence doesn't really exist in this world so you prefer to use your innocence when it is needed the most."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Purest Soul",
+            "resultImageUrl": "questionImage//10027//resultImage_3.jpg",
+            "resultDescription": "You couldn't be anymore transparent if you tried. You are the purest soul in the world and it actually hurts you to lie or keep a secret. Your morals are so strong that your innocence is one of a kind in this day and age. You like to stick to your strong morals and this is what makes your soul shiny and bright like a pure white light."
+        }
+    ]
+}

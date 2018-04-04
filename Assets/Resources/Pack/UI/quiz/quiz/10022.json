@@ -1,0 +1,136 @@
+{
+    "quizId": 10022,
+    "quizTitle": "What Dog Breed Are You?",
+    "quizImageUrl": "titleImage//10022.png",
+    "quizDescription": "Do you ever wonder what kind of dog breed you'd be if you were a dog? Take this quiz and find out!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What are you looking for in a best friend?",
+            "questionImageUrl": "questionImage//10022//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Someone who always has a snack on hand"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Someone who protects me and comforts me whenever I need it"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I never want to be apart.We do everything together!"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "My best friend and I are definitely loyal to each other, but we know when to give each other space"
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Someone who I can be athletic with.We play sports together and go on adventures"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "If you could visit any time in history, which would you like to visit?",
+            "questionImageUrl": "questionImage//10022//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I wish I could see the founding of America and meet our country’s forefathers"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’d love to witness the glamour of La Belle Epoque.I love European history"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’d love to visit the Victorian era-especially for the fashions!"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’d love to see how the pyramids were built, so maybe I’d like to visit the Aztecs or Egyptians"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’ve always wanted see the Roman Empire, or maybe Ancient Greece"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "I think it could be fun to hang out with the bootleggers and gangsters of the 1920s!"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "How would you describe your personal hair maintenance?",
+            "questionImageUrl": "questionImage//10022//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Huh?I get up, comb it, walk out the door"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I just do what I have to do in order to look presentable"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I spend hours getting ready every morning and my hairstylist is practically my best friends"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "Do you feel like people “get you,” or do you feel misunderstood?",
+            "questionImageUrl": "questionImage//10022//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I feel like people know me pretty well"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "People definitely don’t understand the real me"
+                }            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Boston Terrier",
+            "resultImageUrl": "questionImage//10022//resultImage_1.jpg",
+            "resultDescription": "You have a fun, playful, happy-go-lucky personality. You're definitely a peace keeper in relationships as you just want everyone to have a good time.You're energetic, athletic, and love a good job, but you'll drop it all for the chance to have a good time with your loved ones."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Pit Bull",
+            "resultImageUrl": "questionImage//10022//resultImage_2.jpg",
+            "resultDescription": "You know what it's like to be misunderstood.You love action, adventure, and you aren't afraid of a fight, but that doesn't mean that you aren't also loving, affectionate, and looking to be surrounded by your loved ones.People sometimes judge you by your cover, but those people are missing the chance to get to know a truly beautiful person."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Poodle",
+            "resultImageUrl": "questionImage//10022//resultImage_3.jpg",
+            "resultDescription": "It's not your fault you're gorgeous, smart, and well-disciplined!You like to excel at what you do, and you're proud of that fact. People may think your pride makes you a snob, but that's far from the fact.You love people, but it takes you a while to warm up to strangers."
+        }
+    ]
+}

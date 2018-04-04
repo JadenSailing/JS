@@ -1,0 +1,175 @@
+{
+    "quizId": 10030,
+    "quizTitle": "Are You A Girly Girl Or Tomboy?",
+    "quizImageUrl": "titleImage//10030.png",
+    "quizDescription": "Find out if you're a girly girl, tomboy or right in the middle.",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What's your fave kind of app?",
+            "questionImageUrl": "questionImage//10030//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Arcade"
+                },
+              {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sports"
+                },
+            {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Social media"
+                },
+             {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Roleplay"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "How often do you wear high heels?",
+            "questionImageUrl": "questionImage//10030//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "All the time!"
+                },
+           {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A lot"
+                },
+          {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never!"
+                },
+        {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only on special occasions"
+                },
+        {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only if have to"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you like the outdoors?",
+            "questionImageUrl": "questionImage//10030//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sometimes"
+                },
+           {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes!!All time"
+                },
+      {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only to paly sports"
+                },
+       {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No!Too many bugs"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Your fave thing to do is...",
+            "questionImageUrl": "questionImage//10030//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Dance!"
+                },
+          {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Play sports"
+                },
+        {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Play outside"
+                },
+      {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hang out with friends"
+                },
+  {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Go shopping"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "How much make-up do you wear?",
+            "questionImageUrl": "questionImage//10030//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "None"
+                },
+              {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A lot!"
+                },
+           {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only wear make-up on special occasions"
+                },
+           {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Just lip gloss and maybe mascara"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Neither",
+            "resultImageUrl": "questionImage//10030//resultImage_1.jpg",
+            "resultDescription": "Maybe you play one or two- maybe three- sports, but you don't hate the color pink. You're fine with a little dirt, but you don't love the idea. You will wear a dress on special occasions because you know it's fun to dress up every once and a while. You don't take ten million hours each morning on your hair, but you don't wear a pony tail everyday. You're not a tomboy, yet you're not a girly girl. You're in the middle."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Tomboy",
+            "resultImageUrl": "questionImage//10030//resultImage_2.jpg",
+            "resultDescription": "You like sports, you play as many as possible and gym is your fave subject. You like to get down and dirty. You go with the flow and love everyone. And the two things you hate in life are poofy dresses and the color pink."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Girly Girl",
+            "resultImageUrl": "questionImage//10030//resultImage_3.jpg",
+            "resultDescription": "You love colors like pink and pastels, you don't play many sports, you love wearing skirts and dresses, and you hate bugs and getting dirty. Face it, you're a girly girl! And plus, you can't live without your iPhone and Starbucks."
+        }
+    ]
+}

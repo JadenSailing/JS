@@ -1,0 +1,134 @@
+{
+    "quizId": 10039,
+    "quizTitle": "Are You As Introverted As You Think You Are?",
+    "quizImageUrl": "titleImage//10039.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "When's the last time you actually touched another person?",
+            "questionImageUrl": "questionImage//10039//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "WITHIN 1-2 DAYS"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "WITHIN A WEEK"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "WITHIN A COUPLE MONTHS OR MORE"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Do you like animals?",
+            "questionImageUrl": "questionImage//10039//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "LOVE THEM!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "HATE THEM"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "THEY`RE OKAY"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you enjoy taking selfies?",
+            "questionImageUrl": "questionImage//10039//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "SURE,WHO DOESN`T?"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I`D RATHER TAKE A SELFIE THAN A GROUP PIC,THA`S FOR SURE"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "YOU DESPISE THEM,ACTUALLY"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "Has anyone ever called you\"thirsty\"?",
+            "questionImageUrl": "questionImage//10039//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "LOL NO"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "HAHA,MAYBE ONCE OR TWICE"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "ALL.THE.TIME."
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "Is \"it's too cold out\" a good excuse to stay in instead of going out?",
+            "questionImageUrl": "questionImage//10039//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "ABSOLUTELY,WHATKINDOFANIMALAREYOU?"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "NOTREALLY,BUTSOMETIMESYOUUSEIT"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "NEVER, IT`SEASYTOBUNDLEUP!"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Yes,You'reVeryIntrovertedIndeed",
+            "resultImageUrl": "questionImage//10039//resultImage_1.jpg",
+            "resultDescription": "You're very introverted, and it shows. A little on the quieter side, you thrive when amongst only the closes to ffriends, and are drawn to more intimate social activities like watching movies and having low key brunches. You know exactly who you are, and you're okay with it"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "You'reNotasIntrovertedasYouThinkYouAre",
+            "resultImageUrl": "questionImage//10039//resultImage_2.jpg",
+            "resultDescription": "You're not as introverted as you think you are, friend!You may feel shy at times, but in truth, your inner social butterfly is ready to spread it swings at any given moment! You're a combination of quiet and thoughtful and friendly and jovial, which makes you a great friend!"
+        }
+    ]
+}

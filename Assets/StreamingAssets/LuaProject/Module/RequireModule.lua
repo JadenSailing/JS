@@ -33,8 +33,9 @@ end
 --[Comment]
 --基础模块
 function RequireModule:LoadBaseModule()
-    LoadModule(ModuleCfg.MainUIModule);
-    LoadModule(ModuleCfg.PlayerModule);
+    --LoadModule(ModuleCfg.MainUIModule);
+    --LoadModule(ModuleCfg.PlayerModule);
+    LoadModule(ModuleCfg.QuizModule);
 end
 
 --[Comment]

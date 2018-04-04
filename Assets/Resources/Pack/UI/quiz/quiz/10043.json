@@ -1,0 +1,94 @@
+{
+    "quizId": 10043,
+    "quizTitle": "What Percent Witch Are You?",
+    "quizImageUrl": "titleImage//10043.png",
+    "quizDescription": "",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Do you like thunderstorms?",
+            "questionImageUrl": "questionImage//10043//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Love them, I crave them actually"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "They freak me out"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I have no opinion"
+                }          ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Do you know what phase the moon is in right now?",
+            "questionImageUrl": "questionImage//10043//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes, I know where it is"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only if it’s a full moon"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you like nature?",
+            "questionImageUrl": "questionImage//10043//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes "
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sometimes"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "75% Witch",
+            "resultImageUrl": "questionImage//10043//resultImage_1.jpg",
+            "resultDescription": "You are a whole lot of witch! You can sense things, change things, and make things without the traditional ways of the world. Your magical powers are plenty, but you still choose just when to use them!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "50% Witch",
+            "resultImageUrl": "questionImage//10043//resultImage_2.jpg",
+            "resultDescription": "Yay, you're half witch! You have some definite tendencies toward magic, and you can tap into that side of you to gain even more power. Best of both worlds."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "0% Witch",
+            "resultImageUrl": "questionImage//10043//resultImage_3.jpg",
+            "resultDescription": "No witch here! You'd prefer to stick with what you see and what you know from science. All that other stuff is nonsense to you. But don't be surprised if something happens someday that you can't explain!"
+        }    ]
+}

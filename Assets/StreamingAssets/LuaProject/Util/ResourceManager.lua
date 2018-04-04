@@ -2,11 +2,15 @@
 local loadingResourceTable = {};
 
 function ResourceManager:Load(id)
-
+    
 end
 
 function ResourceManager:Instantiate(id, isActive)
 
+end
+
+function ResourceManager:LoadPath(path)
+    return ResourceManager_Lua.Instance:Load(-1, path);
 end
 
 --[Comment]

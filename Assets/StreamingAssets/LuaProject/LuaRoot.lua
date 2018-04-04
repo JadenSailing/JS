@@ -114,21 +114,3 @@ function OnResourceLoaded(index, obj)
 end
 
 Log:InfoColor("Lua Root Loaded!", LogColor.Green);
-
-local a = 1;
-local b = 2;
-
-local c = 0;
-local d = 0;
-
-local t1 = os.clock();
-for i = 1, 100000 do
-    c = bit.band(a, b);
-    d = bit.bor(a, b);
-    --c = LuaHelper.BitAnd(a, b);
-    --d = LuaHelper.BitOr(a, b);
-end
-local t2 = os.clock();
-Log:InfoColor("cost time = " .. (t2-t1));
-Log:InfoColor("a & b = " .. c);
-Log:InfoColor("a | b = " .. d);

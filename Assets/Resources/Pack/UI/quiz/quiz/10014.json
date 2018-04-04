@@ -1,0 +1,163 @@
+{
+    "quizId": 10014,
+    "quizTitle": "Who Were Your Ancestors According To Your Memories?",
+    "quizImageUrl": "titleImage//10014.png",
+    "quizDescription": "Delve into your memories and let us tell you where you really come from....",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What's your first memory?",
+            "questionImageUrl": "questionImage//10014//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A birthday party"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Other/can’t remember"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "School"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Family vacation"
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Talking"
+                }
+,
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Creating art"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "How often do you remember your dreams?",
+            "questionImageUrl": "questionImage//10014//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Once in a while."
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Most of the time!"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you remember being well-liked as a kid?",
+            "questionImageUrl": "questionImage//10014//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yeah,I was popular"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I only had one friend"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I don’t remember"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "No,I was a loner"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "As a child, do you remember your parents fighting?",
+            "questionImageUrl": "questionImage//10014//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yeah, a lot"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sometimes"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No,never"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I don’t remember"
+                }
+            ]
+        },  {
+            "questionId": 5,
+            "questionTitle": "Do you remember your first kiss?",
+            "questionImageUrl": "questionImage//10014//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not really"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Nope"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Of course!"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Ancient Warriors",
+            "resultImageUrl": "questionImage//10014//resultImage_1.jpeg",
+            "resultDescription": "Your memories indicate a long line of warrior ancestors! You are strong minded, tough and have extremely passionate convictions when it comes to the things you believe in. You can be quiet sometimes, but you will always defend those you love and make decisions based on your moral compass. Like your ancestors, you are fearless in times of conflict, and when you need to, you protect others who are weaker and more vulnerable than you. Even if you may not consider yourself a warrior, you really are."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Royalty",
+            "resultImageUrl": "questionImage//10014//resultImage_2.jpg",
+            "resultDescription": "You come from an ancestral line of royalty! Your memories indicate that your ancestors were regal, powerful and respected people that all made immense amounts of influence on the society of their times. They have passed down their genes to you, and it is very apparent in your strong leadership skills, self-confidence and strong sense of right and wrong. Maybe someday you will help continue your ancestral heritage and your kids will rule the next kingdom!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Pirates",
+            "resultImageUrl": "questionImage//10014//resultImage_3.jpg",
+            "resultDescription": "According to your memories, your ancestors were pirates! You probably crave adventure and escape. Your ancestors sailed the seven seas and pillaged their way across the world. You take after them in your free spirit and gift of intuition. You have a great sense of direction and don't like to stay in one spot too long. Change is very good for you, and you adapt easily to new environments and challenges. You remember things in your life that gave you either very negative emotions or very positive ones, the dull moments seem to slip away from your subconscious. Keep up that adventurous spirit and one day you'll find your hidden treasure!"
+        }
+    ]
+}

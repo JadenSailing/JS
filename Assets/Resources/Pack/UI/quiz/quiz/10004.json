@@ -1,0 +1,164 @@
+{
+    "quizId": 10004,
+    "quizTitle": "Answer Some Questions About Your Life And We'll Tell You Where To Go On Vacation",
+    "quizImageUrl": "titleImage//10004.png",
+    "quizDescription": "Because everyone needs to get away.",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10004//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Fantastic"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Ugh"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Depends on the day"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Been better"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not so hot"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pretty great"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10004//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "For the most part"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Get me out of here"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Fine"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Ehhhh"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "At the moment"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Absolutely"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10004//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A more physical job"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Public servant"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Nothing at the moment"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "An office job"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m a student"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Service industry"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10004//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Men"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Women"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "A Staycation",
+            "resultImageUrl": "questionImage//10004//resultImage_1.jpg",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "A Tropical Island",
+            "resultImageUrl": "questionImage//10004//resultImage_2.jpg",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "A Lake In The Woods",
+            "resultImageUrl": "questionImage//10004//resultImage_3.jpg",
+            "resultDescription": ""
+        },
+        {
+            "resultId": 4,
+            "resultTitle": "An European Big City",
+            "resultImageUrl": "questionImage//10004//resultImage_4.jpg",
+            "resultDescription": ""
+        }
+    ]
+}

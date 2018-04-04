@@ -1,0 +1,92 @@
+{
+    "quizId": 10003,
+    "quizTitle": "Do You Have A Higher IQ Than Your Lover?",
+    "quizImageUrl": "titleImage//10003.png",
+    "quizDescription": "Can you outsmart your hubby? Take this test and compare your results?",
+    "quizGroupName":"IQ Test",
+    "quizGroupIcon":"groupIcon//iq.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10003//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Opposite"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Same"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10003//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "6"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "8"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10003//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "The sky reflects the ocean"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Molecules in the air scatter blue light from the sun more than they scatter red light."
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10003//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Men"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Women"
+                }
+            ]
+        }
+],
+        "resultArray": [
+            {
+                "resultId": 1,
+                "resultTitle": "Lower IQ",
+                "resultImageUrl": "questionImage//10003//resultImage_1.jpg",
+                "resultDescription": "Better luck next time! We are afraid to tell you that your lover might have a slightly higher IQ than you. This doesn't matter though as couples make compliments and you are intelligent in other, more emotional ways."
+            },
+            {
+                "resultId": 2,
+                "resultTitle": "Higher IQ",
+                "resultImageUrl": "questionImage//10003//resultImage_2.jpg",
+                "resultDescription": "Congratulations! You have just outshone your lover and proved that you have a higher IQ than your partner. Whether you want to tell him/her the truth is up to you, but deep down you know you have got more marbles up their than your current love interest."
+            }
+        ]
+    }

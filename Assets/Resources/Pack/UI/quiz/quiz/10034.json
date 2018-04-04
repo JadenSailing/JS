@@ -1,0 +1,133 @@
+{
+    "quizId": 10034,
+    "quizTitle": "This Simple 5 Question Quiz Will Tell Us How In Love You Are Today",
+    "quizImageUrl": "titleImage//10034.png",
+    "quizDescription": "Feeling LURVEly today? Let's see how much love you are radiating today.",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "If you could choose one word to describe your feelings right now what would it be?",
+            "questionImageUrl": "questionImage//10034//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Powerful"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Focused"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Content"
+                } ,    
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Distracted"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Excited"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Confused"
+                }         ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "If you could be with anyone in the world and go on a wild adventure who would it be with?",
+            "questionImageUrl": "questionImage//10034//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Myself"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "My lover"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "My besties"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "My partner"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What are your evening plans?",
+            "questionImageUrl": "questionImage//10034//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Laying down with him/her"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Cutting up to Netflix"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sexual encounters"
+                },
+{
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A delicious dinner"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "A romantic date"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Drinks with work friends"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Self Love",
+            "resultImageUrl": "questionImage//10034//resultImage_1.jpg",
+            "resultDescription": "Today you woke up feeling like you want to give yourself all the self love you can in the world. You might have been neglecting yourself and giving to others around you but today is yours so go and treat yourself and give yourself all the love in the world you deserve."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Perfectly In Love",
+            "resultImageUrl": "questionImage//10034//resultImage_2.jpg",
+            "resultDescription": "You woke up on the right side of bed today and you are pleasantly floating across the clouds. You have been in relationship for a long time now and you are perfectly certain that they are the one. You can keep on track with your day without getting lost in thinking about how dreamy your love is and with the love you are blossoming, you really can conquer the world."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Out of Love",
+            "resultImageUrl": "questionImage//10034//resultImage_3.jpg",
+            "resultDescription": "Today you are feeling a little distant and confused. You might be in a relationship and you are starting to doubt certain things. Don't make any rash decisions as you could just be having a bad day, but do make time to address the issues you are feeling and why you are feeling them."
+        }  ,
+        {
+            "resultId": 4,
+            "resultTitle": "Bursting With Love",
+            "resultImageUrl": "questionImage//10034//resultImage_4.jpg",
+            "resultDescription": "You woke up this morning radiating and beaming love. You can't seem to take that smile of your face and you are feeling so deeply in love that nothing can take this feeling from you. You are in the honeymoon period of your relationship and you feel like you are constantly walking on cloud 9."
+        }  ]
+}

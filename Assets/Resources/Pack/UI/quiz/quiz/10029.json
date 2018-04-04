@@ -1,0 +1,88 @@
+{
+    "quizId": 10029,
+    "quizTitle": "Do People Consider You Hot, Pretty, Or Cute?",
+    "quizImageUrl": "titleImage//10029.png",
+    "quizDescription": "There's no question you've got the looks, but do other people see you the same way you see yourself? Take this quiz to find out! ",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "People most often associate you with ...",
+            "questionImageUrl": "questionImage//10029//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "You fantastic hair"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Your hilarious personality"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Your great fashion sense"
+                }            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Where would you most likely be on a Sunday morning?",
+            "questionImageUrl": "questionImage//10029//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Up early getting’ my jog on"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Brunch with my crew "
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sleeping in without a care "
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "You only have $20 to buy something new. What do you buy?",
+            "questionImageUrl": "questionImage//10029//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Novelty underwear"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Lipstick"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Some hairbands or clips"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "HOT",
+            "resultImageUrl": "questionImage//10029//resultImage_1.jpg",
+            "resultDescription": "OWW OWWW! You are one steamy minx! You know how to use your looks to your advantage & people have definitely noticed."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "PRETTY",
+            "resultImageUrl": "questionImage//10029//resultImage_2.jpg",
+            "resultDescription": "You're a classic beauty & your looks are effortless. You don't need any frills or fuss to turn heads, it just comes naturally!"
+        }    ]
+}

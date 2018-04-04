@@ -1,0 +1,77 @@
+{
+    "quizId": 10042,
+    "quizTitle": "Order the Perfect Breakfast and We'll Tell You If You're a Morning Person",
+    "quizImageUrl": "titleImage//10042.jpeg",
+    "quizDescription": "",
+    "quizGroupName":"Foodi Test",
+    "quizGroupIcon":"groupIcon//foodi.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Coffee or tea?",
+            "questionImageUrl": "questionImage//10042//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Coffee"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Tea"
+                }       ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Pancakes or waffles?",
+            "questionImageUrl": "questionImage//10042//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pancakes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Waffles"
+                }            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you prefer your potatoes to be hash browns?",
+            "questionImageUrl": "questionImage//10042//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes.I love them"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No.Potatoes have better preparations"
+                }            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Not a morning person",
+            "resultImageUrl": "questionImage//10042//resultImage_1.jpg",
+            "resultDescription": "Honestly, there's absolutely nothing worse than hearing the sound of your alarm clock. Why does the work day have to start so early? Can't we all just sleep until noon, go to breakfast, and then stumble into the office after? In your dream world, yes. In reality, no. And that stinks."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Can go either way",
+            "resultImageUrl": "questionImage//10042//resultImage_2.jpg",
+            "resultDescription": "We're all human and, as a result, our preferences constantly change. Some days you like to wake up early and hit up the gym. Other days, you want to throw your alarm clock across the room so that it shatters into a million pieces. All we have to say is: We get it. Just take things one day at a time."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Totally a morning person",
+            "resultImageUrl": "questionImage//10042//resultImage_3.jpg",
+            "resultDescription": "The early bird gets the worm... and the coffee, and the sunrise, and every other amazing thing to start your day. You love to be awake before everyone around you. In fact, it's when you get most of your work done. Whatever floats your boat!"
+        }    ]
+}

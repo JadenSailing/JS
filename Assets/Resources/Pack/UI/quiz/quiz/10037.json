@@ -1,0 +1,165 @@
+{
+    "quizId": 10037,
+    "quizTitle": "Tell Us About Your Childhood And We'll Tell You Which Disney Movie Defined It",
+    "quizImageUrl": "titleImage//10037.jpeg",
+    "quizDescription": "What kind of kid were you according to Disney?",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Where did you grow up?",
+            "questionImageUrl": "questionImage//10037//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "The City"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "The Country"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "The Suburbs"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What was your favorite toy?",
+            "questionImageUrl": "questionImage//10037//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Beanie Baby"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Remote Controlled Car"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Easy Bake Oven"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Creepy Crawlers Bug Maker"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Pick a freeze flavor:",
+            "questionImageUrl": "questionImage//10037//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Cream Soda"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Grape"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Cherry"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Blue"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What was your main after-school activity?",
+            "questionImageUrl": "questionImage//10037//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Piano"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Soccer"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Scouts"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pretty much everything"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "What was your average grade in school?",
+            "questionImageUrl": "questionImage//10037//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "B"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "C"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "D"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "F"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "\"Hunchback Of Notre Dame\"defined your childhood",
+            "resultImageUrl": "questionImage//10037//resultImage_1.jpg",
+            "resultDescription": "You had a bit of a troubled childhood. You had to take care of yourself a lot of the time and felt under appreciated and even unacceptable in the eyes of your parents. Now that you're an adult you feel kind alike an outcast,but at least it's turned you into a more interesting person."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "\"Toy Story\"defined your childhood",
+            "resultImageUrl": "questionImage//10037//resultImage_2.jpg",
+            "resultDescription": "The one way people would have described you as a kid was \"happy go lucky\". Nothing really seemed to bother you and you were quite content hanging out with your toys, having a good ol'time. One thing that helped was that your parents accepted you no matter what,  turning you into a healthy, well adjusted adult. Lucky you."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "\"Mary Poppins\"defined your childhood",
+            "resultImageUrl": "questionImage//10037//resultImage_3.jpg",
+            "resultDescription": "You were like a little adult running around. You sometimes took on responsibilities that your older siblings and parents would neglect like cleaning the dishes or walking the dog. You always kept your room clean and would strive to be the best. You parents would gloat that you're practically perfect which you took a lot of pride in."
+        }
+    ]
+}

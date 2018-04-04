@@ -1,0 +1,129 @@
+{
+    "quizId": 10035,
+    "quizTitle": "What Kind of Wings Do You Have?",
+    "quizImageUrl": "titleImage//10035.png",
+    "quizDescription": "Which mythological pair of wings do you actually possess? ",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Which is the most important key to successful human interaction?",
+            "questionImageUrl": "questionImage//10035//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Knowledge"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Justice"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Emotional Balance"
+                }   ,
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Loyalty"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Guardianship"
+                }  ,
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Honesty"
+                }           ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What do you feel modern society is lacking?",
+            "questionImageUrl": "questionImage//10035//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Innocence"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Well rounded intelligence"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Freedom"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Mutual Responsibility"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Humanitarian interest"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rationale"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "If you had the option, would you live forever?",
+            "questionImageUrl": "questionImage//10035//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes, I would"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only if I could stay young"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No, it isn’t natural"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I accept whatever fate I’m given"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Pheonix Wings",
+            "resultImageUrl": "questionImage//10035//resultImage_1.jpg",
+            "resultDescription": "You have Phoenix Wings! More commonly known, the Phoenix and its fiery Wings symbolize rebirth; however, this pair of wings also represent immortality and longevity. This alone makes you a resilient being, in control of the ability to face a challenge regardless of the consequence. You're also a strong example of creativity and and mysticism, helping people around you find their own way to self-express and problem solve with an out of the box type of mindset. You often provide clarity to those who seek answers because of the old soul you carry inside of you and the experienced wisdom you have to offer from your own struggles."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Fairy Wings",
+            "resultImageUrl": "questionImage//10035//resultImage_2.jpg",
+            "resultDescription": "You possess Fairy Wings! You represent freedom and liberation with a strong influence on those surrounding you. You believe that everyone should have the ability to make their own choices and be proud of how they live their lives. To you, practicality is boring and no one should be subjected to living up to the expectations or standards placed upon them by others; this is no way to claim your liberty and restricts you from expressing it fully. However, Fairy Wings also symbolize seduction, and can be dangerous to those who you choose to tempt with your mysterious ways. You can be slightly mischievous, but only in the most fun and charming manner possible."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Pegasus Wings",
+            "resultImageUrl": "questionImage//10035//resultImage_3.jpg",
+            "resultDescription": "You possess Pegasus Wings! This set of wings denotes a sense of increased mobility at great heights, meaning you symbolize a great deal of accomplishment and at a driving force. You are a true combination of both the mind and the body, suggesting that you are a grounded individual with high hopes and dreams. As a Pegasus, you are a prime example to those around you when it comes to power and productivity; just because you reach for the stars, it doesn't mean you can't be practical and efficient along the way. These wings allow you to provide between two important components of our own existence- our internal spirit and our external physicality."
+        }    ]
+}

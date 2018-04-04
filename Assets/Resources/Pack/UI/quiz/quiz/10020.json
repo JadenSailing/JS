@@ -1,0 +1,143 @@
+{
+    "quizId": 10020,
+    "quizTitle": "How Unusual Are You?",
+    "quizImageUrl": "titleImage//10020.png",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "quizDescription": "Are you actually a complete weirdo? Let us tell you!",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "This animal is...",
+            "questionImageUrl": "questionImage//10020//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "CUTE!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "CREEPY"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Which of these words would you use to describe your sex life?",
+            "questionImageUrl": "questionImage//10020//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Other"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Imaginary"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Disappointing"
+                }
+,
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Steady"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Kinky"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Satisfying"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you often feel like you're inherently different from everyone else?",
+            "questionImageUrl": "questionImage//10020//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only sometimes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No, not really"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes,constantly"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "Would you rather trip and fall in public or get pooped on by a pigeon?",
+            "questionImageUrl": "questionImage//10020//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Bring on the poop!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’d rather fall"
+                }
+            ]
+        },  {
+            "questionId": 5,
+            "questionTitle": "Do you know what creepypasta is?",
+            "questionImageUrl": "questionImage//10020//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes and I love it!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I know what it is and I’m NOT into it"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I have no idea what that is"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "95% Unusual, 5% Normal",
+            "resultImageUrl": "questionImage//10020//resultImage_1.jpg",
+            "resultDescription": "Eccentric, curious and a connoisseur of creepy, your unusual ways define you! You’re often interested in topics that others might find lewd or freaky, but you could honestly care less. You’re not afraid to be yourself, even if it means embracing the bizarre. As far as you’re concerned, the weirder, the better! While most of the time you let your freak flag fly, you do know how to tone it down in certain situations."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "50% Unusual, 50% Normal",
+            "resultImageUrl": "questionImage//10020//resultImage_2.jpg",
+            "resultDescription": "Throughout the course of your life, you’ve managed to maintain a steady balance between your weird side and your traditional side. You’re able to color outside the lines, while also knowing when to tone down the weirdness and be appropriate. You’re savvy in social situations and have the ability to feel out the crowd before saying anything unusual or bizarre. It would be nice if more people knew how to do this as well as you do!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "75% Bizarre, 25% Normal",
+            "resultImageUrl": "questionImage//10020//resultImage_3.jpg",
+            "resultDescription": "Ever since you can remember, you've been curious about unusual topics and situations. Sometimes you wonder if you may be a little weirder than others, but you’re not too preoccupied with this notion. After all, life is short and you see no use in trying to be someone you’re not just to make others comfortable. You know how to maintain a healthy balance between being freaky and staying sane. Well done!"
+        }
+    ]
+}

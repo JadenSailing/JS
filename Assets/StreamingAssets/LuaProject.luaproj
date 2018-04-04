@@ -37,6 +37,7 @@
     <Folder Include="LuaProject\ToLua\UnityEngine\" />
     <Folder Include="LuaProject\UI\" />
     <Folder Include="LuaProject\UI\Base\" />
+    <Folder Include="LuaProject\UI\Quiz\" />
     <Folder Include="LuaProject\UI\PlayerAttr\" />
     <Folder Include="LuaProject\Util\" />
   </ItemGroup>
@@ -44,8 +45,10 @@
     <Compile Include="LuaProject\Define\LuaEvent.lua" />
     <Compile Include="LuaProject\Define\DataEvent.lua" />
     <Compile Include="LuaProject\Define\ModuleCfg.lua" />
+    <Compile Include="LuaProject\Define\QuizDefine.lua" />
     <Compile Include="LuaProject\Define\UIRes.lua" />
     <Compile Include="LuaProject\Define\UIPath.lua" />
+    <Compile Include="LuaProject\Module\QuizModule.lua" />
     <Compile Include="LuaProject\Module\PlayerModule.lua" />
     <Compile Include="LuaProject\Module\RequireModule.lua" />
     <Compile Include="LuaProject\ToLua\cjson\util.lua" />
@@ -114,6 +117,7 @@
     <Compile Include="LuaProject\Module\BaseModule.lua" />
     <Compile Include="LuaProject\UI\PlayerAttr\PlayerAttr.lua" />
     <Compile Include="LuaProject\UI\Base\PlayerHeadUI.lua" />
+    <Compile Include="LuaProject\UI\Quiz\QuizMain.lua" />
     <Compile Include="LuaProject\Util\Log.lua" />
     <Compile Include="LuaProject\Util\Invoke.lua" />
     <Compile Include="LuaProject\Util\TextureManager.lua" />

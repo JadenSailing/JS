@@ -1,0 +1,111 @@
+{
+    "quizId": 10009,
+    "quizTitle": "How OCD Are You?",
+    "quizImageUrl": "titleImage//10009.png",
+    "quizDescription": "Though we are not psychologists, but this pretty good test we have will determine how Obsessive Compulsive you are. You might be surprised by the result!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "How much does this image bother you?",
+            "questionImageUrl": "questionImage//10009//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not at all"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A very little"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Somewhat"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "To a great exent"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "How much does this image bother you?",
+            "questionImageUrl": "questionImage//10009//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not at all"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A very little"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Somewhat"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "To a great extent"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "How much does this image bother you?",
+            "questionImageUrl": "questionImage//10009//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not at all"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A very little"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Somewhat"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "To a great extent"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "You are Cool As A Cucumber – Less than 10% OCD",
+            "resultImageUrl": "questionImage//10009//resultImage_1.jpg",
+            "resultDescription": "You’re just going with the flow, huh? Must be a nice life. Grass a little too long? Hair a little out of place? No big deal. Alphabetical order? Who cares? Life’s too short to worry about that stuff, right? Kudos to you for worrying about the “big picture”, but you probably should make your bed.Where do you think your friends stack up on the OCD meter? Share this quiz and let’s see where they’re at!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "You are Relaxed...for the most part – Approximately 30% OCD",
+            "resultImageUrl": "questionImage//10009//resultImage_2.jpg",
+            "resultDescription": "While you are pretty relaxed in general, and let quite a few things slide, there are definitely a few things that you just can’t handle, right? Though you may be able to accept the grass growing a little bit too long, or a cluttered car, maybe you simply refuse to sleep in a bed that hasn’t been made? Whatever it is, you are generally relaxed – just with a few exceptions.Where do you think your friends stack up on the OCD meter? Share this quiz and let’s see where they’re at!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "You are Full Blown OCD – Approximately 90-100% OCD",
+            "resultImageUrl": "questionImage//10009//resultImage_3.jpg",
+            "resultDescription": "Yikes…we hope we haven’t spelled anything incorrectly on here or used improper grammar – we wouldn’t want you to unlike our page just because we aren’t perfect! Just kidding! But you are clearly about as OCD as they become. Everything must be in its proper place, at its proper time, proper length, and proper order – or it is TOTAL CHAOS! That’s okay! Take pride in your OCD. Better to be OCD than live in a lawless, disorganized swamp of filth, right? We agree.Where do you think your friends stack up on the OCD meter? Share this quiz and let’s see where they’re at!"
+        }
+    ]
+}

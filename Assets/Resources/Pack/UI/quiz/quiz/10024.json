@@ -1,0 +1,155 @@
+{
+    "quizId": 10024,
+    "quizTitle": "Can we guess your age and gender from your tastes in food?",
+    "quizImageUrl": "titleImage//10024.jpeg",
+    "quizDescription": "You are what you eat.",
+    "quizGroupName":"Foodi Test",
+    "quizGroupIcon":"groupIcon//foodi.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10024//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Olives"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Anchovies"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Extra cheese"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Ham"
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pepperoni"
+                }
+,
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Egg"
+                }
+,
+                {
+                    "answerId": 7,
+                    "answerImageUrl": "",
+                    "answerDescription": "Spicy beef"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10024//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pink wafer"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rich tea"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Chocolate digestive"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Ginger nut"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Oreo"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10024//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Orange"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pineapple"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Cherries"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Apple"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Strawberries"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Banana"
+                },
+                {
+                    "answerId": 7,
+                    "answerImageUrl": "",
+                    "answerDescription": "Grapes"
+                }
+
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Woman in her mid-late 20s",
+            "resultImageUrl": "questionImage//10024//resultImage_1.jpeg",
+            "resultDescription": "We think you're a woman in her mid-late 20s, so you kind of know what you're doing in life (at least like half of the time). You balance your work life with your friendships pretty well, and are probably more keen on a night in the pub or a nice cocktail bar than hitting the club these days."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Woman in her early 20s",
+            "resultImageUrl": "questionImage//10024//resultImage_2.jpg",
+            "resultDescription": "We reckon you're a woman in her early 20s, which means you're starting to get settled into your adult life, and probably have a career you're focused on (or are at least working towards it). You're still young though, so you know that play is just as important as work, and definitely aren't over your days of big nights out quite yet."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Guy in his late teens",
+            "resultImageUrl": "questionImage//10024//resultImage_3.jpg",
+            "resultDescription": "We reckon you're a guy in his late teens, so you're either preparing to go to uni, already there, or have decided to dive straight into the world of work. You're up for meeting new people and trying new things, and definitely value your free time over your time dedicated to work right now."
+        },
+        {
+            "resultId": 4,
+            "resultTitle": "Man in his early 20s",
+            "resultImageUrl": "questionImage//10024//resultImage_4.jpeg",
+            "resultDescription": "We reckon you're a man in his early 20s, so you're still pretty carefree and friend-focused, but also settling into your career, and hopefully starting to find something you really enjoy. Your days of big nights out aren't over yet, but a lot of the time you'd prefer a night round the table down the pub instead."
+        }
+    ]
+}

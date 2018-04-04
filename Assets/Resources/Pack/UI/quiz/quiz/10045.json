@@ -1,0 +1,131 @@
+{
+    "quizId": 10045,
+    "quizTitle": "What's Your Secret Power?",
+    "quizImageUrl": "titleImage//10045.jpg",
+    "quizDescription": "",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Which of these places would you want to be right now?",
+            "questionImageUrl": "questionImage//10045//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Zip lining"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hiking somewhere beautiful"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "At the gym"
+                }  ,
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Library"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Expensive mansion"
+                }        ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "what is your dream career?",
+            "questionImageUrl": "questionImage//10045//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rich CEO"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Senior Living Counselor"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Skydiving Instructor"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Teacher"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Musician"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Popstar"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Which of these colors do you connect with the most?",
+            "questionImageUrl": "questionImage//10045//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Red"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Orange"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Brown"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green"
+                }
+
+            ]
+        }       
+
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Nature Powers",
+            "resultImageUrl": "questionImage//10045//resultImage_1.jpg",
+            "resultDescription": "You are the insightful one, and you are always questioning and exploring things. You love to learn new things and have a little fun. You're very kind to everything around you, and you're curious."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Pyrokinesis",
+            "resultImageUrl": "questionImage//10045//resultImage_2.jpg",
+            "resultDescription": "You are a leader, and you are very independent. You are brave and strong, and you can solve problems successfully with your wits."
+        }  ,
+        {
+            "resultId": 3,
+            "resultTitle": "Mind Control",
+            "resultImageUrl": "questionImage//10045//resultImage_3.jpg",
+            "resultDescription": "Even though you are very intelligent, you seek power and superiority. Your cleverness and need for control can be powerful. People like you can end up becoming angry very easily."
+        }    ]
+}

@@ -1,0 +1,167 @@
+{
+    "quizId": 10017,
+    "quizTitle": "Is Your Brain Ruled By Emotions or By Logic?",
+    "quizImageUrl": "titleImage//10017.png",
+    "quizDescription": "Do you let yourself be controlled most by how you feel or what you think? Are you more brain - or more heart? Find out here!",
+    "quizGroupName":"IQ Test",
+    "quizGroupIcon":"groupIcon//iq.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "You find out you were fired from your favorite job. You...",
+            "questionImageUrl": "questionImage//10017//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yell at your boss"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Break down in tears"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Break things"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Calmly pack your things and go "
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Apply for a new job"
+                }
+,
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Try to renegotiate"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "How do you celebrate Valentine's Day?",
+            "questionImageUrl": "questionImage//10017//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "With my special someone."
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "It’s just another day, so I work"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Spend time with good friends"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "How would you be most likely to plan your wedding?",
+            "questionImageUrl": "questionImage//10017//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hire a professional"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Map out the exact budget and allocate accordingly"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Just think of it as my dream day and not worry about expense"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Get input from friends and family, then move forward"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Have my parents do it for me"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m just going to elope"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "You see a stray dog on the side of the road. You:",
+            "questionImageUrl": "questionImage//10017//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Look for its owner"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Adopt it immediately"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Take it to a shelter"
+                }            ]
+        },  {
+            "questionId": 5,
+            "questionTitle": "Do you ever take the time to see a therapist?",
+            "questionImageUrl": "questionImage//10017//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sometime,but not regularly"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes,I like to work through my emotions"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No,I don’t feel like I need to "
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Emotions",
+            "resultImageUrl": "questionImage//10017//resultImage_1.jpg",
+            "resultDescription": "Your brain is ruled mainly by emotions. You tend to think with your gut - whatever you feel gets priority over your mind, and you've let that rule guide you throughout life. You feel deeply and instantly, no matter the situation, and are likely to have a wide range of emotional reactions throughout your day. While this can help you in interpersonal situations, take some time to think things through on occasion - you just might surprise yourself!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Both",
+            "resultImageUrl": "questionImage//10017//resultImage_2.jpg",
+            "resultDescription": "You are ruled by both! A true chameleon, you are not guided by either logic or emotions, but by a mixture of the two. You let your heart control you when needed, and your brain steps in to do some deep thinking, too. You're a truly balanced person, and should be proud."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Logic",
+            "resultImageUrl": "questionImage//10017//resultImage_3.jpg",
+            "resultDescription": "You are ruled by logic. Whatever happens in your life, good or bad, you always take the time to think it over. You let your brain rule your actions and decision-making processes, and, as a result, tend to not get too upset when things don't go your way. You always have a Plan B in place for whatever occasion may arise. Though it's good to be logical, remember to take some time to let your emotions through when it counts - it's sure to help improve your relationships."
+        }
+    ]
+}

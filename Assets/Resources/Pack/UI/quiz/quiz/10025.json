@@ -1,0 +1,116 @@
+{
+    "quizId": 10025,
+    "quizTitle": "What Animal Are You Most Like?",
+    "quizImageUrl": "titleImage//10025.jpeg",
+    "quizDescription": "Are you a mythical pegasus? How 'bout a dangerously fierce tiger? Take this quiz to find out which animal you're most like!",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Are you male or female?",
+            "questionImageUrl": "questionImage//10025//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m a guy"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m a girl"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "If you had the opportunity to do only 1 thing from the choices below, which activity would you pick?",
+            "questionImageUrl": "questionImage//10025//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Skydiving"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hang Gliding"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Dogsledding"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Hot Air Ballooning"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Zip-Lining"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Do you like to swim?",
+            "questionImageUrl": "questionImage//10025//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "I LOVE to go swimming!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Not my fave thing, but yeah"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No way!"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "Do you prefer to be indoors or outdoors?",
+            "questionImageUrl": "questionImage//10025//questionImage_4.jpeg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Outside"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Inside"
+                }
+            ]
+        }            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Dolphin",
+            "resultImageUrl": "questionImage//10025//resultImage_1.jpg",
+            "resultDescription": "If you were an animal, you will be a dolphin."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Phoenix",
+            "resultImageUrl": "questionImage//10025//resultImage_2.jpg",
+            "resultDescription": "If you were an animal, you would be a phoenix! You are very bright, and people look up to you. You're special in your own ways, and will live a long, happy life."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "House Cat",
+            "resultImageUrl": "questionImage//10025//resultImage_3.jpg",
+            "resultDescription": "If you were an animal, you would be a house cat! Sorry to say, but you're a little lazy... But other than that, you're super cool, and loved by many. Never forget how awesome you are, okay? :)"
+        }
+    ]
+}

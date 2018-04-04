@@ -1,0 +1,128 @@
+{
+    "quizId": 10005,
+    "quizTitle": "How Weird Are You??",
+    "quizImageUrl": "titleImage//10005.png",
+    "quizDescription": "Find out if you're weird in this personality quiz!",
+    "quizGroupName":"Know Me",
+    "quizGroupIcon":"groupIcon//knowme.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Has anybody called you weird before?",
+            "questionImageUrl": "questionImage//10005//questionImage_1.jpeg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Never!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sometimes."
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yeah, all the time!"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What Youtubers do you enjoy watching? (Or any under the same categories)",
+            "questionImageUrl": "questionImage//10005//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "HowToBasic,Danisnotonfire,Maxmoefoe, ShaneDawson,Dillonthehacker"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "PewDiePie, Cryaotic,TheDiamondMinecart"
+                }, 
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "I don’t really watch certain YouTubers.Just funny videos and vines"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What music do you listen to?",
+            "questionImageUrl": "questionImage//10005//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Whatever is on my favorite Radio station!"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "EDM,Indie,Country,Romantic."
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "OriginalMusic(IE: TheDuckSong, LlamaSong,TheKDenSong)."
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What do you do on the internet most?",
+            "questionImageUrl": "questionImage//10005//questionImage_4.jpeg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Look at eyeballs that have been cut in half, and other bodily pieces."
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Play games"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Watch Anime!"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Check Skype,Facebook,Twitter,and other social networks."
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Take quizzes!"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Weird",
+            "resultImageUrl": "questionImage//10005//resultImage_1.jpeg",
+            "resultDescription": "You cray-cray."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Insane",
+            "resultImageUrl": "",
+            "resultDescription": "GET AWAY FROM ME, YOU FREAK!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Normal",
+            "resultImageUrl": "questionImage//10005//resultImage_3.jpg",
+            "resultDescription": "Good weather we're having."
+        }
+    ]
+}

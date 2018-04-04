@@ -1,0 +1,138 @@
+{
+    "quizId": 10010,
+    "quizTitle": "Can You Pass This Visual Psychopath Test?",
+    "quizImageUrl": "titleImage//10010.png",
+    "quizDescription": "How twisted is your brain?",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What do you see? ",
+            "questionImageUrl": "questionImage//10010//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Something else"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Askull"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "A tree"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A cloud of smoke"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What do you see?",
+            "questionImageUrl": "questionImage//10010//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "A monster"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A dog"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Something else"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "An island"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What do you see?",
+            "questionImageUrl": "questionImage//10010//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "An explosion"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A heart"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "A mushroom cloud"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Something else"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What do you see?",
+            "questionImageUrl": "questionImage//10010//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Something else"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A gun"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "A shoe"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "A chair"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "100% psychopath!",
+            "resultImageUrl": "questionImage//10010//resultImage_1.jpg",
+            "resultDescription": "Umm we're a little scared to say this but OK, here we go: You a total, 100% psychopath! You are not a very social person, you prefer being alone in your apartment, doing your own thing, with no intervention from the outside world. You are not a very empathic person, but you don't see that as a problem, you see that as an advantage! Our advice to you is to try to be more social (without kidnapping anyone!), and see how you feel, you might like it!"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "60% psychopath!",
+            "resultImageUrl": "questionImage//10010//resultImage_2.jpeg",
+            "resultDescription": "You're a bit of a psycho :)Sometimes you are a little distant from other people. You are no stranger to difficult times and a little depression, but overall, you are fairly friendly, outgoing and enjoy the company of others. You don't like to be on your own too much, you are very empathic, and you do feel bad when you see someone in need (heck, you might even help others from time to time!)Don't worry about your potential to become a psychopath, as long as you keep yourself surrounded with good people and a healthy lifestyle, you will be fine!"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "You're not really a psychopath",
+            "resultImageUrl": "questionImage//10010//resultImage_3.jpg",
+            "resultDescription": "You passed the psychopath test! You are a smart, assertive and dedicated person, but you are NOT a psychopath! You like to speak with other people, work, travel and learn. You don't feel caged in your daily life, and you are always there for others."
+        }
+    ]
+}

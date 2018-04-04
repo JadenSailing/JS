@@ -1,0 +1,129 @@
+{
+    "quizId": 10012,
+    "quizTitle": "Who Is Your Soul Mate?",
+    "quizImageUrl": "titleImage//10012.png",
+    "quizDescription": "Which one of the special people in your life is really your kindred spirit?",
+    "quizGroupName":"Love Compatibility",
+    "quizGroupIcon":"groupIcon//love.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What is the most important quality in the people you surround yourself with?",
+            "questionImageUrl": "questionImage//10012//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Intelligence"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Loyalty"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Good looking"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Fun to be around "
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Similar values"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sympathetic"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Are you a good listener?",
+            "questionImageUrl": "questionImage//10012//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m not sure."
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Where does your strongest childhood memory take place?",
+            "questionImageUrl": "questionImage//10012//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "On a family vacation"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Other"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "At school"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Over Sunday breakfast"
+                }
+,
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "At a friend’s house"
+                }
+,
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "On Christmas morning"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Your best friend",
+            "resultImageUrl": "questionImage//10012//resultImage_1.jpg",
+            "resultDescription": "Your best friend has been there for you through thick and thin. They are always your shoulder to cry on, and your companion through good times. You love all the same things, and you share all the big moments in your life. So is it any wonder your best friend is your soul mate?"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Your sister",
+            "resultImageUrl": "questionImage//10012//resultImage_2.jpeg",
+            "resultDescription": "She taught you everything you know. Or at least, that's what she tells everyone. She's been your rock through the most tumultuous years of your life, and she's been there to cheer you on through every accomplishment. Her love is boundless and unconditional, and you know you can turn to her no matter what.Is it any surprise your sister is your soul mate?"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Your significant other",
+            "resultImageUrl": "questionImage//10012//resultImage_3.jpeg",
+            "resultDescription": "You had to kiss a lot of toads, but you finally found the one! They are your better half, and they complete you in every possible way. They started appreciating your taste in music, and you started rooting for their sports team. You love every moment with them engrossed in the life you share.Is it any surprise your significant other is your soul mate?"
+        }
+    ]
+}

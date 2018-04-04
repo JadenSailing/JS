@@ -1,0 +1,145 @@
+{
+    "quizId": 10031,
+    "quizTitle": "Let Me Guess Your Phobia",
+    "quizImageUrl": "titleImage//10031.png",
+    "quizDescription": "We all have fears. To overcome is to gain power over yourself. Do you run in the heat of darkness? Will you stray from high places? Do the walls feel like they are closing in on you? What are you afraid of?",
+    "quizGroupName":"Daily Quiz",
+    "quizGroupIcon":"groupIcon//daily.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Do you leave the light on as you sleep? In the hall? A nightlight maybe?",
+            "questionImageUrl": "questionImage//10031//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Where are the covers as you sleep?",
+            "questionImageUrl": "questionImage//10031//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Over my Feet"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Over my Head"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Under me"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Over my Entire Body"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "What is your pace going from room to room?",
+            "questionImageUrl": "questionImage//10031//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Slowly"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "A Brisk Pace"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "As Fast as I can go"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Depends on the Weather"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "You notice something out of the corner of your eye, are you scared?",
+            "questionImageUrl": "questionImage//10031//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Probably"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes,Most Definitely"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Maybe,it Depends"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Only if it`s Loud"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "Does Friday the 13th bother you?",
+            "questionImageUrl": "questionImage//10031//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "Acrophobia: Fear of Heights and Suspension",
+            "resultImageUrl": "questionImage//10031//resultImage_1.jpg",
+            "resultDescription": "Acrophobia: Heights and Suspension are what take your breath away. Do you not fly in planes for the fear they might fall? Can you go no where high for your heart might feint before you? Do you have trouble sleeping, because you just might fall off the bed? When you jerk yourself from falling, that is your soul saving itself, or so I've heard.So be careful my friend, or your fear may make you fall into the abyss..."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "Triskaidekaphobia: Fear of Superstition",
+            "resultImageUrl": "questionImage//10031//resultImage_2.jpg",
+            "resultDescription": "Triskaidekaphobia: Superstition is what holds you so very close. Are you wary of walking under ladders? Or maybe passing black cats? What about breaking a mirror or spilling salt? What would you do if an elevator stopped on a 13th floor? You are the type that avoids cracks in the ground, because you feel you are saving your mother's life. There's a story where someone stepped on a crack and his mother met an untimely demise, or so I've heard.So be careful my friend, or you just might find years of bad luck at your door."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "Astraphobia: Fear of Lightning and Thunder",
+            "resultImageUrl": "questionImage//10031//resultImage_3.jpg",
+            "resultDescription": "Astraphobia: Lightning and Thunder make you shrivel late at night. The noise pounds in your head and you pray that it doesn't come near you. Count the seconds, for each second between a thunder clap is a mile. You can't avoid it, and you can't escape it. Lightning has shocked people in their homes, and even in their cars, or so I've heard.So be careful my friend, or the blinding light might find you."
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "quizId": 10032,
+    "quizTitle": "This Color Test Will Determine What Type Of Intelligence You Have",
+    "quizImageUrl": "titleImage//10032.png",
+    "quizDescription": "“It is not how smart you are, it is how you are smart.” -Howard Gardner Everyone is intelligent, just in their own ways. What's yours?",
+    "quizGroupName":"IQ Test",
+    "quizGroupIcon":"groupIcon//iq.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "Which color do you notice first?",
+            "questionImageUrl": "questionImage//10032//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Red"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Orange"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Blue"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Purple"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "What about this one?",
+            "questionImageUrl": "questionImage//10032//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Red"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Orange"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Blue"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pink"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Is this image more blue or green?",
+            "questionImageUrl": "questionImage//10032//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Green"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Blue"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What color would you make these flowers?",
+            "questionImageUrl": "questionImage//10032//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Pink"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yellow"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Orange"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "You have Bodily-Kinesthetic Intelligence",
+            "resultImageUrl": "questionImage//10032//resultImage_1.jpg",
+            "resultDescription": "Your dominant intelligence is the bodily-kinesthetic intelligence.This means that you have the ability to control your body movements and handle objects skillfully. You are graceful and smooth in your actions and know how to work your body correctly. You are well-coordinated and have good motor skills. You enjoy hands-on projects and learn by doing."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "You have Logical-Mathematical Intelligence",
+            "resultImageUrl": "questionImage//10032//resultImage_2.jpg",
+            "resultDescription": "Your dominant intelligence is the logical-mathematical intelligence. This means that you have the ability to think conceptually and abstractly, and can discern logical or numerical patterns. You can easily do mental-math, and enjoy strategy and numerical games. You also probably like science experiments, because you often wonder how things work, and think of logical and rational explanations for things."
+        }
+    ]
+}

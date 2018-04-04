@@ -1,0 +1,136 @@
+{
+    "quizId": 10015,
+    "quizTitle": "What's The Hidden Meaning Of Your Name?",
+    "quizImageUrl": "titleImage//10015.png",
+    "quizDescription": "What does your name really say about you?",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10015//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "ABCDEF"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "GHIJKL"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "MNOPQR"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "STUVWXYZ"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10015//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m not sure"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10015//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },  {
+            "questionId": 4,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10015//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "I’m not sure"
+                }
+            ]
+        },  {
+            "questionId": 5,
+            "questionTitle": "",
+            "questionImageUrl": "questionImage//10015//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "1"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "2"
+                }, {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "3+"
+                }
+            ]
+        }
+            ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "The Ingenious One",
+            "resultImageUrl": "questionImage//10015//resultImage_1.jpg",
+            "resultDescription": "Things associated with your name:- Brilliance- Unconventional- Personal Magnetism- Sexy- Gregariousness- Prodigy- Creative mind- Unique thinking- Progressive- Wit- Tenacious"
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "The Whimsical One",
+            "resultImageUrl": "questionImage//10015//resultImage_2.jpg",
+            "resultDescription": "Things associated with your name:- Charm- Vulnerability- Scintillating- Seductive- Ethereal- Kindness- Humility- Fresh- Playfulness- Melody- Incandescent- Capricious"
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "The Zealous One",
+            "resultImageUrl": "questionImage//10015//resultImage_3.jpg",
+            "resultDescription": "Things associated with your name:- Ambition- Strength- Iron- Willingness- Passion- Sexuality- Scandalous- Ubiquitous- Influence- Energy- Fervent"
+        }
+    ]
+}

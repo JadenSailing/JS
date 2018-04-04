@@ -109,12 +109,14 @@ namespace LuaInterface
 
             LuaDLL.tolua_pushudata(L, 1);
             LuaDLL.lua_setfield(L, LuaIndexes.LUA_GLOBALSINDEX, "null");
+            
 
 #if UNITY_EDITOR
             GetToLuaInstanceID();
             GetConsoleWindowListView();
 #endif
         }
+        
 
         /*--------------------------------对于tolua扩展函数------------------------------------------*/
         #region TOLUA_EXTEND_FUNCTIONS

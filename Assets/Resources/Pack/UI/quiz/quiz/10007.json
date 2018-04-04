@@ -1,0 +1,170 @@
+{
+    "quizId": 10007,
+    "quizTitle": "Which Famous Man Is The Male Version Of You?",
+    "quizImageUrl": "titleImage//10007.png",
+    "quizDescription": "If you were a boy...",
+    "quizGroupName":"Fun Test",
+    "quizGroupIcon":"groupIcon//fun.png",
+    "questionsArray": [
+        {
+            "questionId": 1,
+            "questionTitle": "What do you love most about yourself?",
+            "questionImageUrl": "questionImage//10007//questionImage_1.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "My brain"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "My boby"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "My passion"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "My sensitive soul"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "My talents"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "My sense of humor"
+                }
+            ]
+        },
+        {
+            "questionId": 2,
+            "questionTitle": "Do you have any tattoos?",
+            "questionImageUrl": "questionImage//10007//questionImage_2.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Yes"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "No"
+                }
+            ]
+        },
+        {
+            "questionId": 3,
+            "questionTitle": "Which quality do you love in aman?",
+            "questionImageUrl": "questionImage//10007//questionImage_3.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Passion"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Creativity"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Humor"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Intelligence"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Rebellion"
+                }
+            ]
+        },
+        {
+            "questionId": 4,
+            "questionTitle": "What's your greatest passion?",
+            "questionImageUrl": "questionImage//10007//questionImage_4.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Music"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Art"
+                },
+                {
+                    "answerId": 3,
+                    "answerImageUrl": "",
+                    "answerDescription": "Education"
+                },
+                {
+                    "answerId": 4,
+                    "answerImageUrl": "",
+                    "answerDescription": "Politics"
+                },
+                {
+                    "answerId": 5,
+                    "answerImageUrl": "",
+                    "answerDescription": "Sports"
+                },
+                {
+                    "answerId": 6,
+                    "answerImageUrl": "",
+                    "answerDescription": "Other"
+                }
+            ]
+        },
+        {
+            "questionId": 5,
+            "questionTitle": "You are more of an...",
+            "questionImageUrl": "questionImage//10007//questionImage_5.jpg",
+            "answerArray": [
+                {
+                    "answerId": 1,
+                    "answerImageUrl": "",
+                    "answerDescription": "Introvert"
+                },
+                {
+                    "answerId": 2,
+                    "answerImageUrl": "",
+                    "answerDescription": "Extrovert"
+                }
+            ]
+        }
+    ],
+    "resultArray": [
+        {
+            "resultId": 1,
+            "resultTitle": "RyanGosling",
+            "resultImageUrl": "questionImage//10007//resultImage_1.jpg",
+            "resultDescription": "If you were a guy, you would totally be Ryan Gosling.Like Ryan, you are a hopeless romantic who has a more traditional outlook on love.You are wise beyond your year sanda gifted musician, you love expressing yourself through artistic channels and you have a deep,sensitive soult hate mits passion.You always have the most clever things to say which makes you the life of the party and a total social butterfly."
+        },
+        {
+            "resultId": 2,
+            "resultTitle": "ChrisEvans",
+            "resultImageUrl": "questionImage//10007//resultImage_2.jpg",
+            "resultDescription": "If you were a guy, you would totally be Chris Evans.You have a wicked sense of humor and a loud, outgoing personality, but deepdown inside you are sort of a nerd!You are a curious and intellectual person, always discussing life on aphilosophical level and pondering the answers to life's most difficult questions. Like Chris, you are intelligent, driven, ambitious and a total flirt. The balance of energy and intellect make you a fascinating person and a great catch."
+        },
+        {
+            "resultId": 3,
+            "resultTitle": "JakeGyllenhaal",
+            "resultImageUrl": "questionImage//10007//questionImage_3.jpg",
+            "resultDescription": "If you were a guy, you would definitely be Jake Gyllenhaal. Like Jake, you are sensitive, creative but also a little bit rebellious. Eventhough you are a bad-ass,  you are deeply concerned with humanitarian issues and have a huge heart. You are more on the eccentric side, you never wanted to conform to trendsorbe normal like every one else. Although you have always felt misunderstood and different, it is your obscurity and uniqueness that make you such a cool person, and people love you for it."
+        }
+    ]
+}
