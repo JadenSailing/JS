@@ -22,8 +22,8 @@ public class GameManager : MonoBehaviour
     public void Awake()
     {
         //加载UIRoot
-        GameObject uiRootRes = ResourceManager_Lua.Instance.Load(0, "Pack/UI/UI Root") as GameObject;
-        GameObject uiRoot = GameObject.Instantiate(uiRootRes);
+        //GameObject uiRootRes = ResourceManager_Lua.Instance.Load(0, "Pack/UI/UI Root") as GameObject;
+        //GameObject uiRoot = GameObject.Instantiate(uiRootRes);
         LuaRoot.Instance.Init();
         LuaLooper looper = this.gameObject.AddComponent<LuaLooper>();
         looper.luaState = LuaRoot.Instance.Lua;
