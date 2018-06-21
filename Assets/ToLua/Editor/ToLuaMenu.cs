@@ -980,7 +980,7 @@ public static class ToLuaMenu
         ClearAllLuaFiles();
         string destDir = Application.dataPath + "/Resources" + "/Lua";
         CopyLuaBytesFiles(LuaConst.luaDir, destDir);
-        CopyLuaBytesFiles(LuaConst.toluaDir, destDir);
+        //CopyLuaBytesFiles(LuaConst.toluaDir, destDir);
         AssetDatabase.Refresh();
         Debug.Log("Copy lua files over");
     }
