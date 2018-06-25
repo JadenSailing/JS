@@ -7,6 +7,7 @@ UIRes = {};
 UIRes[10001] = {id = 1001, path = "Pack/UI/base/PlayerHeadUI"};
 UIRes[10002] = {id = 1002, path = "Pack/UI/playerAttribute/PlayerAttr"};
 UIRes[10003] = {id = 1003, path = "Pack/UI/quiz/UI/QuizMain"};
+UIRes[10004] = {id = 1004, path = "Pack/UI/quiz/UI/QuizTitle"};
 
 
 UIRes[20001] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-01"};

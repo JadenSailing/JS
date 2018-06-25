@@ -2,6 +2,7 @@
 --quiz
 
 require "UI/Quiz/QuizMain";
+require "UI/Quiz/QuizTitle";
 
 QuizModule = BaseModule:New(ModuleCfg.QuizModule);
 
@@ -141,7 +142,15 @@ function QuizModule:Init()
 
     --UI监听
     QuizMain:Init()
+    QuizTitle:Init();
 
+    EventManager:Register(DataEvent.StartUp, self);
+end
+
+function QuizModule:OnEvent(p_event, p_param)
+    if(p_event == DataEvent.StartUp) then
+        QuizTitle:Open();
+    end
 end
 
 function QuizModule:GetTitleImage(qId)

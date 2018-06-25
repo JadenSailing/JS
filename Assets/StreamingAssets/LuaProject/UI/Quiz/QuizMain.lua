@@ -11,13 +11,11 @@ local count = 0;
 local uiRef = {};
 
 function QuizMain:Init()
-    EventManager:Register(DataEvent.StartUp, self);
+    
 end
 
 function QuizMain:OnEvent(p_event, p_param)
-    if(p_event == DataEvent.StartUp) then
-        self:Open();
-    end
+    
 end
 
 function QuizMain:OnClick(obj)
