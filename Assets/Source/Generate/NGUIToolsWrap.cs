@@ -495,7 +495,7 @@ public class NGUIToolsWrap
 			{
 				bool arg0 = LuaDLL.luaL_checkboolean(L, 1);
 				UIPanel o = NGUITools.CreateUI(arg0);
-				ToLua.Push(L, o);
+				ToLua.PushSealed(L, o);
 				return 1;
 			}
 			else if (count == 2)
@@ -503,16 +503,16 @@ public class NGUIToolsWrap
 				bool arg0 = LuaDLL.luaL_checkboolean(L, 1);
 				int arg1 = (int)LuaDLL.luaL_checknumber(L, 2);
 				UIPanel o = NGUITools.CreateUI(arg0, arg1);
-				ToLua.Push(L, o);
+				ToLua.PushSealed(L, o);
 				return 1;
 			}
 			else if (count == 3)
 			{
-				UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 1);
+				UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 1, typeof(UnityEngine.Transform));
 				bool arg1 = LuaDLL.luaL_checkboolean(L, 2);
 				int arg2 = (int)LuaDLL.luaL_checknumber(L, 3);
 				UIPanel o = NGUITools.CreateUI(arg0, arg1, arg2);
-				ToLua.Push(L, o);
+				ToLua.PushSealed(L, o);
 				return 1;
 			}
 			else
@@ -532,7 +532,7 @@ public class NGUIToolsWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 1);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 1, typeof(UnityEngine.Transform));
 			int arg1 = (int)LuaDLL.luaL_checknumber(L, 2);
 			NGUITools.SetChildLayer(arg0, arg1);
 			return 0;
@@ -550,10 +550,10 @@ public class NGUIToolsWrap
 		{
 			ToLua.CheckArgsCount(L, 3);
 			UnityEngine.GameObject arg0 = (UnityEngine.GameObject)ToLua.CheckObject(L, 1, typeof(UnityEngine.GameObject));
-			UIAtlas arg1 = (UIAtlas)ToLua.CheckObject<UIAtlas>(L, 2);
+			UIAtlas arg1 = (UIAtlas)ToLua.CheckObject(L, 2, typeof(UIAtlas));
 			string arg2 = ToLua.CheckString(L, 3);
 			UISprite o = NGUITools.AddSprite(arg0, arg1, arg2);
-			ToLua.Push(L, o);
+			ToLua.PushSealed(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -601,7 +601,7 @@ public class NGUIToolsWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 1);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 1, typeof(UnityEngine.Transform));
 			NGUITools.DestroyChildren(arg0);
 			return 0;
 		}
@@ -664,8 +664,8 @@ public class NGUIToolsWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 1);
-			UnityEngine.Transform arg1 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 1, typeof(UnityEngine.Transform));
+			UnityEngine.Transform arg1 = (UnityEngine.Transform)ToLua.CheckObject(L, 2, typeof(UnityEngine.Transform));
 			bool o = NGUITools.IsChild(arg0, arg1);
 			LuaDLL.lua_pushboolean(L, o);
 			return 1;
@@ -815,7 +815,7 @@ public class NGUIToolsWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 1);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 1, typeof(UnityEngine.Transform));
 			NGUITools.MakePixelPerfect(arg0);
 			return 0;
 		}
@@ -927,7 +927,7 @@ public class NGUIToolsWrap
 			{
 				UnityEngine.Camera arg0 = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
 				float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-				UnityEngine.Transform arg2 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 3);
+				UnityEngine.Transform arg2 = (UnityEngine.Transform)ToLua.CheckObject(L, 3, typeof(UnityEngine.Transform));
 				UnityEngine.Vector3[] o = NGUITools.GetSides(arg0, arg1, arg2);
 				ToLua.Push(L, o);
 				return 1;
@@ -977,7 +977,7 @@ public class NGUIToolsWrap
 			{
 				UnityEngine.Camera arg0 = (UnityEngine.Camera)ToLua.CheckObject(L, 1, typeof(UnityEngine.Camera));
 				float arg1 = (float)LuaDLL.luaL_checknumber(L, 2);
-				UnityEngine.Transform arg2 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 3);
+				UnityEngine.Transform arg2 = (UnityEngine.Transform)ToLua.CheckObject(L, 3, typeof(UnityEngine.Transform));
 				UnityEngine.Vector3[] o = NGUITools.GetWorldCorners(arg0, arg1, arg2);
 				ToLua.Push(L, o);
 				return 1;

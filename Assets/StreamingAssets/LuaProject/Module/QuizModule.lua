@@ -145,6 +145,12 @@ function QuizModule:Init()
     QuizTitle:Init();
 
     EventManager:Register(DataEvent.StartUp, self);
+
+    for i = 1, QuizDefine.MaxQuestion do
+        local qId = QuizDefine.QuestionStartID + i - 1;
+        local resId = self:GetTitleImgResId(qId);
+        UIRes:AddRes(resId, self:GetTitleImagePath(qId));
+    end
 end
 
 function QuizModule:OnEvent(p_event, p_param)
@@ -153,7 +159,11 @@ function QuizModule:OnEvent(p_event, p_param)
     end
 end
 
-function QuizModule:GetTitleImage(qId)
+function QuizModule:GetTitleImgResId(qId)
+    return qId + 10000;
+end
+
+function QuizModule:GetTitleImagePath(qId)
     return QuizModule.BasePath .. QuizModule.TitleImage .. tostring(qId);
 end
 --[[
@@ -177,4 +187,20 @@ function QuizModule:GetTitleDesc(qId)
         return tostring(qId) .. " not found!";
     end
     return data["quizTitle"];
+end
+
+
+function QuizModule:GetRandomQuestions(qNum)
+    local n = QuizDefine.MaxQuestion;
+    local ret = {};
+    for i = 1, n do
+        if(LuaHelper.Next(n - i + 1) < qNum) then
+            qNum = qNum - 1;
+            ret[#ret+1] = i + QuizDefine.QuestionStartID - 1;
+            if(qNum <= 0) then
+                break;
+            end
+        end
+    end
+    return ret;
 end

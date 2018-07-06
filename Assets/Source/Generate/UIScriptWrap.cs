@@ -312,7 +312,7 @@ public class UIScriptWrap
 		{
 			ToLua.CheckArgsCount(L, 2);
 			UIScript obj = (UIScript)ToLua.CheckObject<UIScript>(L, 1);
-			UIInput arg0 = (UIInput)ToLua.CheckObject<UIInput>(L, 2);
+			UIInput arg0 = (UIInput)ToLua.CheckObject(L, 2, typeof(UIInput));
 			obj.OnUIInputValueChange(arg0);
 			return 0;
 		}
@@ -329,7 +329,7 @@ public class UIScriptWrap
 		{
 			ToLua.CheckArgsCount(L, 2);
 			UIScript obj = (UIScript)ToLua.CheckObject<UIScript>(L, 1);
-			UIInput arg0 = (UIInput)ToLua.CheckObject<UIInput>(L, 2);
+			UIInput arg0 = (UIInput)ToLua.CheckObject(L, 2, typeof(UIInput));
 			obj.OnUIInputSubmit(arg0);
 			return 0;
 		}

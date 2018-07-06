@@ -31,7 +31,7 @@ public class UISpriteWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UISprite obj = (UISprite)ToLua.CheckObject<UISprite>(L, 1);
+			UISprite obj = (UISprite)ToLua.CheckObject(L, 1, typeof(UISprite));
 			UISpriteData o = obj.GetAtlasSprite();
 			ToLua.PushObject(L, o);
 			return 1;
@@ -48,7 +48,7 @@ public class UISpriteWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UISprite obj = (UISprite)ToLua.CheckObject<UISprite>(L, 1);
+			UISprite obj = (UISprite)ToLua.CheckObject(L, 1, typeof(UISprite));
 			obj.MakePixelPerfect();
 			return 0;
 		}
@@ -64,7 +64,7 @@ public class UISpriteWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 4);
-			UISprite obj = (UISprite)ToLua.CheckObject<UISprite>(L, 1);
+			UISprite obj = (UISprite)ToLua.CheckObject(L, 1, typeof(UISprite));
 			BetterList<UnityEngine.Vector3> arg0 = (BetterList<UnityEngine.Vector3>)ToLua.CheckObject<BetterList<UnityEngine.Vector3>>(L, 2);
 			BetterList<UnityEngine.Vector2> arg1 = (BetterList<UnityEngine.Vector2>)ToLua.CheckObject<BetterList<UnityEngine.Vector2>>(L, 3);
 			BetterList<UnityEngine.Color32> arg2 = (BetterList<UnityEngine.Color32>)ToLua.CheckObject<BetterList<UnityEngine.Color32>>(L, 4);
@@ -124,7 +124,7 @@ public class UISpriteWrap
 			o = ToLua.ToObject(L, 1);
 			UISprite obj = (UISprite)o;
 			UIAtlas ret = obj.atlas;
-			ToLua.Push(L, ret);
+			ToLua.PushSealed(L, ret);
 			return 1;
 		}
 		catch(Exception e)
@@ -294,7 +294,7 @@ public class UISpriteWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UISprite obj = (UISprite)o;
-			UIAtlas arg0 = (UIAtlas)ToLua.CheckObject<UIAtlas>(L, 2);
+			UIAtlas arg0 = (UIAtlas)ToLua.CheckObject(L, 2, typeof(UIAtlas));
 			obj.atlas = arg0;
 			return 0;
 		}

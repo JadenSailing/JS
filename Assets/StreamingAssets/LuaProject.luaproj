@@ -178,6 +178,7 @@
     <Compile Include="LuaProject\UI\PlayerAttr\PlayerAttr.lua" />
     <Compile Include="LuaProject\UI\Base\PlayerHeadUI.lua" />
     <Compile Include="LuaProject\UI\Quiz\QuizMain.lua" />
+    <Compile Include="LuaProject\UI\Quiz\QuizTitle.lua" />
     <Compile Include="LuaProject\UnityEngine\Bounds.lua" />
     <Compile Include="LuaProject\UnityEngine\Color.lua" />
     <Compile Include="LuaProject\UnityEngine\LayerMask.lua" />

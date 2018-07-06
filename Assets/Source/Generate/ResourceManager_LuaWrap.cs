@@ -8,6 +8,7 @@ public class ResourceManager_LuaWrap
 	{
 		L.BeginClass(typeof(ResourceManager_Lua), typeof(Singleton<ResourceManager_Lua>));
 		L.RegFunction("Load", Load);
+		L.RegFunction("LoadBytes", LoadBytes);
 		L.RegFunction("LoadAync", LoadAync);
 		L.RegFunction("InstantiateAsync", InstantiateAsync);
 		L.RegFunction("Tick", Tick);
@@ -50,6 +51,24 @@ public class ResourceManager_LuaWrap
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			string arg1 = ToLua.CheckString(L, 3);
 			UnityEngine.Object o = obj.Load(arg0, arg1);
+			ToLua.Push(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int LoadBytes(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 2);
+			ResourceManager_Lua obj = (ResourceManager_Lua)ToLua.CheckObject<ResourceManager_Lua>(L, 1);
+			string arg0 = ToLua.CheckString(L, 2);
+			byte[] o = obj.LoadBytes(arg0);
 			ToLua.Push(L, o);
 			return 1;
 		}

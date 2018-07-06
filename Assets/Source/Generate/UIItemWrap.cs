@@ -181,7 +181,7 @@ public class UIItemWrap
 		{
 			ToLua.CheckArgsCount(L, 2);
 			UIItem obj = (UIItem)ToLua.CheckObject<UIItem>(L, 1);
-			UILabel arg0 = (UILabel)ToLua.CheckObject<UILabel>(L, 2);
+			UILabel arg0 = (UILabel)ToLua.CheckObject(L, 2, typeof(UILabel));
 			obj.OnClickLabelURL(arg0);
 			return 0;
 		}

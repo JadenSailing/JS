@@ -83,7 +83,7 @@ public class UIRectWrap
 		{
 			ToLua.CheckArgsCount(L, 2);
 			UIRect obj = (UIRect)ToLua.CheckObject<UIRect>(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 2, typeof(UnityEngine.Transform));
 			UnityEngine.Vector3[] o = obj.GetSides(arg0);
 			ToLua.Push(L, o);
 			return 1;
@@ -398,7 +398,7 @@ public class UIRectWrap
 			o = ToLua.ToObject(L, 1);
 			UIRect obj = (UIRect)o;
 			UnityEngine.Transform ret = obj.cachedTransform;
-			ToLua.Push(L, ret);
+			ToLua.PushSealed(L, ret);
 			return 1;
 		}
 		catch(Exception e)
@@ -531,7 +531,7 @@ public class UIRectWrap
 			o = ToLua.ToObject(L, 1);
 			UIRect obj = (UIRect)o;
 			UIRoot ret = obj.root;
-			ToLua.Push(L, ret);
+			ToLua.PushSealed(L, ret);
 			return 1;
 		}
 		catch(Exception e)

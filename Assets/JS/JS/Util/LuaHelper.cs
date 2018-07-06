@@ -25,4 +25,33 @@ public class LuaHelper
     {
         return lhs | rhs;
     }
+
+    private static System.Random _randomInstance;
+
+    private static System.Random RandomInstance
+    {
+        get
+        {
+            if(_randomInstance == null)
+            {
+                _randomInstance = new Random();
+            }
+            return _randomInstance;
+        }
+    }
+
+    public static int Next(int maxValue)
+    {
+        return RandomInstance.Next(maxValue);
+    }
+
+    public static int Next(int minValue, int maxValue)
+    {
+        return RandomInstance.Next(minValue, maxValue);
+    }
+
+    public static float NextFloat()
+    {
+        return (float)RandomInstance.NextDouble();
+    }
 }

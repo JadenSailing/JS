@@ -9,16 +9,13 @@ UIRes[10002] = {id = 1002, path = "Pack/UI/playerAttribute/PlayerAttr"};
 UIRes[10003] = {id = 1003, path = "Pack/UI/quiz/UI/QuizMain"};
 UIRes[10004] = {id = 1004, path = "Pack/UI/quiz/UI/QuizTitle"};
 
+function UIRes:AddRes(id, path)
+    UIRes[id] = {id = id, path = path};
+end
 
-UIRes[20001] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-01"};
-UIRes[20002] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-02"};
-UIRes[20003] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-03"};
-UIRes[20004] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-04"};
-UIRes[20005] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-05"};
-UIRes[20006] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-06"};
-UIRes[20007] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-07"};
-UIRes[20008] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-08"};
-UIRes[20009] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-09"};
-UIRes[20010] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-10"};
-UIRes[20011] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-11"};
-UIRes[20012] = {id = 2001, path = "Pack/UI/Image/Head/M-Head-12"};
+function UIRes:GetPath(id)
+    return UIRes[id].path;
+end
+
+--20001-200046 titleimg
+

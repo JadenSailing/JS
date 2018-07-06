@@ -16,6 +16,9 @@ public static class LuaBinder
 		ResourceManager_LuaWrap.Register(L);
 		UILabelWrap.Register(L);
 		UISpriteWrap.Register(L);
+		UITableWrap.Register(L);
+		UIPanelWrap.Register(L);
+		UITextureWrap.Register(L);
 		TestProtolWrap.Register(L);
 		LuaHelperWrap.Register(L);
 		NGUIToolsWrap.Register(L);
@@ -24,6 +27,7 @@ public static class LuaBinder
 		UIWidgetWrap.Register(L);
 		UIRectWrap.Register(L);
 		UIBasicSpriteWrap.Register(L);
+		UIWidgetContainerWrap.Register(L);
 		L.BeginModule("UnityEngine");
 		UnityEngine_ComponentWrap.Register(L);
 		UnityEngine_TransformWrap.Register(L);
@@ -91,6 +95,7 @@ public static class LuaBinder
 		L.RegFunction("Action_int", System_Action_int);
 		L.RegFunction("Comparison_int", System_Comparison_int);
 		L.RegFunction("Func_int_int", System_Func_int_int);
+		L.RegFunction("Comparison_UnityEngine_Transform", System_Comparison_UnityEngine_Transform);
 		L.EndModule();
 		L.BeginModule("UIWidget");
 		L.RegFunction("OnDimensionsChanged", UIWidget_OnDimensionsChanged);
@@ -99,6 +104,13 @@ public static class LuaBinder
 		L.EndModule();
 		L.BeginModule("UIDrawCall");
 		L.RegFunction("OnRenderCallback", UIDrawCall_OnRenderCallback);
+		L.EndModule();
+		L.BeginModule("UITable");
+		L.RegFunction("OnReposition", UITable_OnReposition);
+		L.EndModule();
+		L.BeginModule("UIPanel");
+		L.RegFunction("OnGeometryUpdated", UIPanel_OnGeometryUpdated);
+		L.RegFunction("OnClippingMoved", UIPanel_OnClippingMoved);
 		L.EndModule();
 		L.EndModule();
 		L.BeginPreLoad();
@@ -419,6 +431,33 @@ public static class LuaBinder
 	}
 
 	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int System_Comparison_UnityEngine_Transform(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
+
+			if (count == 1)
+			{
+				Delegate arg1 = DelegateTraits<System.Comparison<UnityEngine.Transform>>.Create(func);
+				ToLua.Push(L, arg1);
+			}
+			else
+			{
+				LuaTable self = ToLua.CheckLuaTable(L, 2);
+				Delegate arg1 = DelegateTraits<System.Comparison<UnityEngine.Transform>>.Create(func, self);
+				ToLua.Push(L, arg1);
+			}
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
 	static int UIWidget_OnDimensionsChanged(IntPtr L)
 	{
 		try
@@ -516,6 +555,87 @@ public static class LuaBinder
 			{
 				LuaTable self = ToLua.CheckLuaTable(L, 2);
 				Delegate arg1 = DelegateTraits<UIDrawCall.OnRenderCallback>.Create(func, self);
+				ToLua.Push(L, arg1);
+			}
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UITable_OnReposition(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
+
+			if (count == 1)
+			{
+				Delegate arg1 = DelegateTraits<UITable.OnReposition>.Create(func);
+				ToLua.Push(L, arg1);
+			}
+			else
+			{
+				LuaTable self = ToLua.CheckLuaTable(L, 2);
+				Delegate arg1 = DelegateTraits<UITable.OnReposition>.Create(func, self);
+				ToLua.Push(L, arg1);
+			}
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UIPanel_OnGeometryUpdated(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
+
+			if (count == 1)
+			{
+				Delegate arg1 = DelegateTraits<UIPanel.OnGeometryUpdated>.Create(func);
+				ToLua.Push(L, arg1);
+			}
+			else
+			{
+				LuaTable self = ToLua.CheckLuaTable(L, 2);
+				Delegate arg1 = DelegateTraits<UIPanel.OnGeometryUpdated>.Create(func, self);
+				ToLua.Push(L, arg1);
+			}
+			return 1;
+		}
+		catch(Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int UIPanel_OnClippingMoved(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+			LuaFunction func = ToLua.CheckLuaFunction(L, 1);
+
+			if (count == 1)
+			{
+				Delegate arg1 = DelegateTraits<UIPanel.OnClippingMoved>.Create(func);
+				ToLua.Push(L, arg1);
+			}
+			else
+			{
+				LuaTable self = ToLua.CheckLuaTable(L, 2);
+				Delegate arg1 = DelegateTraits<UIPanel.OnClippingMoved>.Create(func, self);
 				ToLua.Push(L, arg1);
 			}
 			return 1;

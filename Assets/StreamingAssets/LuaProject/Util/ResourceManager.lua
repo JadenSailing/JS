@@ -45,7 +45,7 @@ function ResourceManager:OnResourceLoaded(index, res)
 
     --增加判断 如果资源没有加载回来 LogError 并返回
     if(res == nil) then
-        Log:Info("资源加载失败！id=" .. t.id);
+        Log:Info("资源加载失败！id=" .. t.id .. ",path = " .. UIRes[t.id].path);
         loadingResourceTable[index] = nil;
         return;
     end

@@ -19,25 +19,19 @@ function QuizTitle:OnEvent(p_event, p_param)
 end
 
 function QuizTitle:OnClick(obj)
-    Log:InfoColor(obj.name .. " clicked")
-    if(obj.name == "box") then
-        self:Close();
+    local objName = obj.name;
+    Log:InfoColor(objName .. " is clicked!")
+    if(objName == "upBg") then
+        --show question
+    else
+        
     end
 end
 
 function QuizTitle:OnClickItem(obj, itemScript)
-    if(itemScript.ItemName == "TitleItem") then
-        local qId = itemScript.Data;
-        if(obj.name == "TitleImage") then
-            self:ShowPage(QuizTitle.Page.Quiz);
-        end
+    if(itemScript.ItemName == "StartBtn") then
+        
     end
-end
-
---[Comment]
---更新问题
-function QuizTitle:UpdateQuestion(qId, sId)
-
 end
 
 function QuizTitle:OnStart()
@@ -46,7 +40,7 @@ function QuizTitle:OnStart()
 end
 
 function QuizTitle:InitUI()
-
+    
 end
 
 function QuizTitle:OnDelayCall(p_int, p_string)
@@ -63,6 +57,42 @@ function QuizTitle:OnDestroy()
 end
 
 function QuizTitle:OnShow()
+    local topNum = 5;
+    local randomIds = QuizModule:GetRandomQuestions(topNum);
+    local res = self:GetUIScript().List_Object[0];
+    local parent = self:GetUIScript().List_Table[0].gameObject;
+    for i = 1, topNum do
+        local item = NGUITools.AddChild(parent, res);
+        item:SetActive(true);
+        self:RefreshItem(item, randomIds[i]);
+    end
+    res:SetActive(false);
+    self:GetUIScript().List_Table[0]:Reposition();
+end
+
+function QuizTitle:RefreshItem(item, qId)
+    local itemScript = item:GetComponent("UIItem");
+    itemScript.Data = qId;
+    --self:SetTexture(itemScript.List_Texture[0], QuizModule:GetTitleImgResId(qId));
+
+    local texture = ResourceManager:LoadPath(UIRes:GetPath(QuizModule:GetTitleImgResId(qId)));
+    itemScript.List_Texture[0].mainTexture = texture;
+
+    local width = 130;
+    local height = 130;
+    local ratio = 560/420; --texture.width / texture.height;
+
+    if(ratio > 1) then
+        width = 130 * ratio;
+    else
+        height = 130 / ratio;
+    end
+
+    itemScript.List_Texture[0].width = width;
+    itemScript.List_Texture[0].height = height;
+
+    itemScript.List_Label[0].text = QuizModule:GetTitleDesc(qId);
+    itemScript.List_Label[1].text = Helper:GetDateStr();
 end
 
 function QuizTitle:OnHide()

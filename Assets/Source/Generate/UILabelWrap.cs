@@ -76,8 +76,8 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 2, typeof(UnityEngine.Transform));
 			UnityEngine.Vector3[] o = obj.GetSides(arg0);
 			ToLua.Push(L, o);
 			return 1;
@@ -94,7 +94,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.MarkAsChanged();
 			return 0;
 		}
@@ -110,7 +110,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.ProcessText();
 			return 0;
 		}
@@ -126,7 +126,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.MakePixelPerfect();
 			return 0;
 		}
@@ -142,7 +142,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.AssumeNaturalSize();
 			return 0;
 		}
@@ -161,7 +161,7 @@ public class UILabelWrap
 
 			if (count == 3 && TypeChecker.CheckTypes<UnityEngine.Vector2, bool>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector2 arg0 = ToLua.ToVector2(L, 2);
 				bool arg1 = LuaDLL.lua_toboolean(L, 3);
 				int o = obj.GetCharacterIndexAtPosition(arg0, arg1);
@@ -170,7 +170,7 @@ public class UILabelWrap
 			}
 			else if (count == 3 && TypeChecker.CheckTypes<UnityEngine.Vector3, bool>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector3 arg0 = ToLua.ToVector3(L, 2);
 				bool arg1 = LuaDLL.lua_toboolean(L, 3);
 				int o = obj.GetCharacterIndexAtPosition(arg0, arg1);
@@ -197,7 +197,7 @@ public class UILabelWrap
 
 			if (count == 2 && TypeChecker.CheckTypes<UnityEngine.Vector2>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector2 arg0 = ToLua.ToVector2(L, 2);
 				string o = obj.GetWordAtPosition(arg0);
 				LuaDLL.lua_pushstring(L, o);
@@ -205,7 +205,7 @@ public class UILabelWrap
 			}
 			else if (count == 2 && TypeChecker.CheckTypes<UnityEngine.Vector3>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector3 arg0 = ToLua.ToVector3(L, 2);
 				string o = obj.GetWordAtPosition(arg0);
 				LuaDLL.lua_pushstring(L, o);
@@ -228,7 +228,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			string o = obj.GetWordAtCharacterIndex(arg0);
 			LuaDLL.lua_pushstring(L, o);
@@ -249,7 +249,7 @@ public class UILabelWrap
 
 			if (count == 2 && TypeChecker.CheckTypes<UnityEngine.Vector2>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector2 arg0 = ToLua.ToVector2(L, 2);
 				string o = obj.GetUrlAtPosition(arg0);
 				LuaDLL.lua_pushstring(L, o);
@@ -257,7 +257,7 @@ public class UILabelWrap
 			}
 			else if (count == 2 && TypeChecker.CheckTypes<UnityEngine.Vector3>(L, 2))
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				UnityEngine.Vector3 arg0 = ToLua.ToVector3(L, 2);
 				string o = obj.GetUrlAtPosition(arg0);
 				LuaDLL.lua_pushstring(L, o);
@@ -280,7 +280,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			string o = obj.GetUrlAtCharacterIndex(arg0);
 			LuaDLL.lua_pushstring(L, o);
@@ -298,7 +298,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 3);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			UnityEngine.KeyCode arg1 = (UnityEngine.KeyCode)ToLua.CheckObject(L, 3, typeof(UnityEngine.KeyCode));
 			int o = obj.GetCharacterIndex(arg0, arg1);
@@ -317,7 +317,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 7);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			int arg0 = (int)LuaDLL.luaL_checknumber(L, 2);
 			int arg1 = (int)LuaDLL.luaL_checknumber(L, 3);
 			UIGeometry arg2 = (UIGeometry)ToLua.CheckObject<UIGeometry>(L, 4);
@@ -339,7 +339,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 4);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			BetterList<UnityEngine.Vector3> arg0 = (BetterList<UnityEngine.Vector3>)ToLua.CheckObject<BetterList<UnityEngine.Vector3>>(L, 2);
 			BetterList<UnityEngine.Vector2> arg1 = (BetterList<UnityEngine.Vector2>)ToLua.CheckObject<BetterList<UnityEngine.Vector2>>(L, 3);
 			BetterList<UnityEngine.Color32> arg2 = (BetterList<UnityEngine.Color32>)ToLua.CheckObject<BetterList<UnityEngine.Color32>>(L, 4);
@@ -358,7 +358,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 3);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			BetterList<UnityEngine.Vector3> arg0 = (BetterList<UnityEngine.Vector3>)ToLua.CheckObject<BetterList<UnityEngine.Vector3>>(L, 2);
 			int arg1 = (int)LuaDLL.luaL_checknumber(L, 3);
 			UnityEngine.Vector2 o = obj.ApplyOffset(arg0, arg1);
@@ -377,7 +377,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 8);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			BetterList<UnityEngine.Vector3> arg0 = (BetterList<UnityEngine.Vector3>)ToLua.CheckObject<BetterList<UnityEngine.Vector3>>(L, 2);
 			BetterList<UnityEngine.Vector2> arg1 = (BetterList<UnityEngine.Vector2>)ToLua.CheckObject<BetterList<UnityEngine.Vector2>>(L, 3);
 			BetterList<UnityEngine.Color32> arg2 = (BetterList<UnityEngine.Color32>)ToLua.CheckObject<BetterList<UnityEngine.Color32>>(L, 4);
@@ -400,7 +400,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 2);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			string arg0 = ToLua.CheckString(L, 2);
 			int o = obj.CalculateOffsetToFit(arg0);
 			LuaDLL.lua_pushinteger(L, o);
@@ -418,7 +418,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.SetCurrentProgress();
 			return 0;
 		}
@@ -434,7 +434,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.SetCurrentPercent();
 			return 0;
 		}
@@ -450,7 +450,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.SetCurrentSelection();
 			return 0;
 		}
@@ -469,7 +469,7 @@ public class UILabelWrap
 
 			if (count == 3)
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				string arg0 = ToLua.CheckString(L, 2);
 				string arg1 = null;
 				bool o = obj.Wrap(arg0, out arg1);
@@ -479,7 +479,7 @@ public class UILabelWrap
 			}
 			else if (count == 4)
 			{
-				UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+				UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 				string arg0 = ToLua.CheckString(L, 2);
 				string arg1 = null;
 				int arg2 = (int)LuaDLL.luaL_checknumber(L, 4);
@@ -505,7 +505,7 @@ public class UILabelWrap
 		try
 		{
 			ToLua.CheckArgsCount(L, 1);
-			UILabel obj = (UILabel)ToLua.CheckObject<UILabel>(L, 1);
+			UILabel obj = (UILabel)ToLua.CheckObject(L, 1, typeof(UILabel));
 			obj.UpdateNGUIText();
 			return 0;
 		}
@@ -638,7 +638,7 @@ public class UILabelWrap
 			o = ToLua.ToObject(L, 1);
 			UILabel obj = (UILabel)o;
 			UIFont ret = obj.bitmapFont;
-			ToLua.Push(L, ret);
+			ToLua.PushSealed(L, ret);
 			return 1;
 		}
 		catch(Exception e)
@@ -1283,7 +1283,7 @@ public class UILabelWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UILabel obj = (UILabel)o;
-			UIFont arg0 = (UIFont)ToLua.CheckObject<UIFont>(L, 2);
+			UIFont arg0 = (UIFont)ToLua.CheckObject(L, 2, typeof(UIFont));
 			obj.bitmapFont = arg0;
 			return 0;
 		}

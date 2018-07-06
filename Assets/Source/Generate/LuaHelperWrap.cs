@@ -9,6 +9,8 @@ public class LuaHelperWrap
 		L.BeginClass(typeof(LuaHelper), typeof(System.Object));
 		L.RegFunction("BitAnd", BitAnd);
 		L.RegFunction("BitOr", BitOr);
+		L.RegFunction("Next", Next);
+		L.RegFunction("NextFloat", NextFloat);
 		L.RegFunction("New", _CreateLuaHelper);
 		L.RegFunction("__tostring", ToLua.op_ToString);
 		L.EndClass();
@@ -65,6 +67,55 @@ public class LuaHelperWrap
 			uint arg0 = (uint)LuaDLL.luaL_checknumber(L, 1);
 			uint arg1 = (uint)LuaDLL.luaL_checknumber(L, 2);
 			uint o = LuaHelper.BitOr(arg0, arg1);
+			LuaDLL.lua_pushnumber(L, o);
+			return 1;
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int Next(IntPtr L)
+	{
+		try
+		{
+			int count = LuaDLL.lua_gettop(L);
+
+			if (count == 1)
+			{
+				int arg0 = (int)LuaDLL.luaL_checknumber(L, 1);
+				int o = LuaHelper.Next(arg0);
+				LuaDLL.lua_pushinteger(L, o);
+				return 1;
+			}
+			else if (count == 2)
+			{
+				int arg0 = (int)LuaDLL.luaL_checknumber(L, 1);
+				int arg1 = (int)LuaDLL.luaL_checknumber(L, 2);
+				int o = LuaHelper.Next(arg0, arg1);
+				LuaDLL.lua_pushinteger(L, o);
+				return 1;
+			}
+			else
+			{
+				return LuaDLL.luaL_throw(L, "invalid arguments to method: LuaHelper.Next");
+			}
+		}
+		catch (Exception e)
+		{
+			return LuaDLL.toluaL_exception(L, e);
+		}
+	}
+
+	[MonoPInvokeCallbackAttribute(typeof(LuaCSFunction))]
+	static int NextFloat(IntPtr L)
+	{
+		try
+		{
+			ToLua.CheckArgsCount(L, 0);
+			float o = LuaHelper.NextFloat();
 			LuaDLL.lua_pushnumber(L, o);
 			return 1;
 		}

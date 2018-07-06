@@ -61,6 +61,9 @@ public static class CustomSettings
 
         _GT(typeof(UILabel)),
         _GT(typeof(UISprite)),
+        _GT(typeof(UITable)),
+        _GT(typeof(UIPanel)),
+        _GT(typeof(UITexture)),
         _GT(typeof(TestProtol)),
 
         _GT(typeof(LuaHelper)),
@@ -195,7 +198,7 @@ public static class CustomSettings
     //ngui优化，下面的类没有派生类，可以作为sealed class
     public static List<Type> sealedList = new List<Type>()
     {
-        /*typeof(Transform),
+        typeof(Transform),
         typeof(UIRoot),
         typeof(UICamera),
         typeof(UIViewport),
@@ -208,7 +211,6 @@ public static class CustomSettings
         typeof(UISprite),
         typeof(UIGrid),
         typeof(UITable),
-        typeof(UIWrapGrid),
         typeof(UIInput),
         typeof(UIScrollView),
         typeof(UIEventListener),
@@ -230,7 +232,7 @@ public static class CustomSettings
         typeof(TweenHeight),
         typeof(TypewriterEffect),
         typeof(UIToggle),
-        typeof(Localization),*/
+        typeof(Localization),
     };
 
     public static BindType _GT(Type t)

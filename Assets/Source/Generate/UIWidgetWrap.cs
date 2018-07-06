@@ -100,7 +100,7 @@ public class UIWidgetWrap
 		{
 			ToLua.CheckArgsCount(L, 2);
 			UIWidget obj = (UIWidget)ToLua.CheckObject<UIWidget>(L, 1);
-			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
+			UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 2, typeof(UnityEngine.Transform));
 			UnityEngine.Vector3[] o = obj.GetSides(arg0);
 			ToLua.Push(L, o);
 			return 1;
@@ -253,7 +253,7 @@ public class UIWidgetWrap
 			else if (count == 2)
 			{
 				UIWidget obj = (UIWidget)ToLua.CheckObject<UIWidget>(L, 1);
-				UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject<UnityEngine.Transform>(L, 2);
+				UnityEngine.Transform arg0 = (UnityEngine.Transform)ToLua.CheckObject(L, 2, typeof(UnityEngine.Transform));
 				UnityEngine.Bounds o = obj.CalculateBounds(arg0);
 				ToLua.Push(L, o);
 				return 1;
@@ -325,7 +325,7 @@ public class UIWidgetWrap
 			ToLua.CheckArgsCount(L, 1);
 			UIWidget obj = (UIWidget)ToLua.CheckObject<UIWidget>(L, 1);
 			UIPanel o = obj.CreatePanel();
-			ToLua.Push(L, o);
+			ToLua.PushSealed(L, o);
 			return 1;
 		}
 		catch (Exception e)
@@ -657,7 +657,7 @@ public class UIWidgetWrap
 			o = ToLua.ToObject(L, 1);
 			UIWidget obj = (UIWidget)o;
 			UIPanel ret = obj.panel;
-			ToLua.Push(L, ret);
+			ToLua.PushSealed(L, ret);
 			return 1;
 		}
 		catch(Exception e)
@@ -1378,7 +1378,7 @@ public class UIWidgetWrap
 		{
 			o = ToLua.ToObject(L, 1);
 			UIWidget obj = (UIWidget)o;
-			UIPanel arg0 = (UIPanel)ToLua.CheckObject<UIPanel>(L, 2);
+			UIPanel arg0 = (UIPanel)ToLua.CheckObject(L, 2, typeof(UIPanel));
 			obj.panel = arg0;
 			return 0;
 		}
