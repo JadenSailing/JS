@@ -57,6 +57,27 @@ function QuizTitle:OnDestroy()
 end
 
 function QuizTitle:OnShow()
+    --top
+    local topId = QuizModule:GetTodyQuestion();
+    local uiScript = self:GetUIScript();
+    local texture = ResourceManager:LoadPath(UIRes:GetPath(QuizModule:GetTitleImgResId(topId)));
+    uiScript.List_Texture[0].mainTexture = texture;
+
+    --[[
+    local ratio = 560/420;
+    local width = 600;
+    local height = 600 / ratio;
+
+    uiScript.List_Texture[0].width = width;
+    uiScript.List_Texture[0].height = height;
+    --]]
+
+    uiScript.List_Label[0].text = QuizModule:GetTitleDesc(topId);
+    uiScript.List_Label[1].text = "Today's Special";
+
+    uiScript.List_Label[2].text = "Hottest Quiz";
+
+    --list
     local topNum = 5;
     local randomIds = QuizModule:GetRandomQuestions(topNum);
     local res = self:GetUIScript().List_Object[0];
@@ -82,11 +103,7 @@ function QuizTitle:RefreshItem(item, qId)
     local height = 130;
     local ratio = 560/420; --texture.width / texture.height;
 
-    if(ratio > 1) then
-        width = 130 * ratio;
-    else
-        height = 130 / ratio;
-    end
+    width = 130 * ratio;
 
     itemScript.List_Texture[0].width = width;
     itemScript.List_Texture[0].height = height;

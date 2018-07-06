@@ -189,6 +189,11 @@ function QuizModule:GetTitleDesc(qId)
     return data["quizTitle"];
 end
 
+function QuizModule:GetTodyQuestion()
+    local n = QuizDefine.MaxQuestion;
+    local rand = LuaHelper.Next(n);
+    return rand + QuizDefine.QuestionStartID;
+end
 
 function QuizModule:GetRandomQuestions(qNum)
     local n = QuizDefine.MaxQuestion;
