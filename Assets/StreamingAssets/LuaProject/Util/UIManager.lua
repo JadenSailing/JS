@@ -1,4 +1,4 @@
-﻿UIManager = {};
+UIManager = {};
 
 --[Comment]
 --UI分层的实际父节点

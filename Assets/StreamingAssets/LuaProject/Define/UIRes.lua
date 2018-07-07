@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --UIRes UI资源配置
 --可以以其他配表形式出现
 --id唯一id

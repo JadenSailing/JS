@@ -1,4 +1,4 @@
-﻿_G.BaseUI = {}
+_G.BaseUI = {}
 local mt = {}
 mt.__index = BaseUI
 

@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --模块配置
 ModuleCfg = {};
 ModuleCfg.RequireModule = {id = 1, moduleName = "RequireModule", path = "Module/RequireModule"};

@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --UIPath UI相关的配置
 --id唯一id
 --res资源id

@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --quiz
 
 require "UI/Quiz/QuizMain";

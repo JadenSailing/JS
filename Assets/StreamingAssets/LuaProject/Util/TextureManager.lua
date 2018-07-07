@@ -1,4 +1,4 @@
-﻿_G.TextureManager = {}
+_G.TextureManager = {}
 
 --[Comment]
 --设置texture的表

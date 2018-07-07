@@ -1,4 +1,4 @@
-﻿_G.Invoke = {}
+_G.Invoke = {}
 
 local WaitList = {}
 local InvokeList = {}

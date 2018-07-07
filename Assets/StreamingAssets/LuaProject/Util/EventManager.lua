@@ -1,4 +1,4 @@
-﻿--事件管理器
+--事件管理器
 _G.EventManager = {}
 
 --[Comment]

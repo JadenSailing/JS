@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --玩家属性(for test)
 require "UI/PlayerAttr/PlayerAttr";
 

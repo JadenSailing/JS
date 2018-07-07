@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --Log相关
 
 _G.Log = {}

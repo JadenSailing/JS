@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --主界面(for test)
 
 require "UI/PlayerAttr/PlayerAttr";

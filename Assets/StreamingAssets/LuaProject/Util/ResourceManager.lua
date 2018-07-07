@@ -1,4 +1,4 @@
-﻿ResourceManager = {};
+ResourceManager = {};
 local loadingResourceTable = {};
 
 function ResourceManager:Load(id)

@@ -1,4 +1,4 @@
-﻿_G.QuizMain = BaseUI:New(UIPath.QuizMain);
+_G.QuizMain = BaseUI:New(UIPath.QuizMain);
 
 QuizMain.Page = 
 {

@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --模块基类
 
 _G.BaseModule = {}

@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --
 QuizDefine = {};
 QuizDefine.QuestionStartID = 10001;

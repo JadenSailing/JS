@@ -1,4 +1,4 @@
-﻿--[Comment]
+--[Comment]
 --基础定义&核心类定义&顶级方法
 require "Util/Log"
 require "Util/EventManager";

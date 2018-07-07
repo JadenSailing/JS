@@ -1,4 +1,4 @@
-﻿-- Lua入口
+-- Lua入口
 require "RootDefine"
 
 function Start()

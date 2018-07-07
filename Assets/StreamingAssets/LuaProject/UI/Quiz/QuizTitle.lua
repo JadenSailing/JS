@@ -1,4 +1,4 @@
-﻿_G.QuizTitle = BaseUI:New(UIPath.QuizTitle);
+_G.QuizTitle = BaseUI:New(UIPath.QuizTitle);
 
 QuizTitle.Page = 
 {
