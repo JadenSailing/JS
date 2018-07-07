@@ -10,6 +10,8 @@ local count = 0;
 
 local uiRef = {};
 
+local topQId = 0;
+
 function QuizTitle:Init()
     
 end
@@ -20,17 +22,22 @@ end
 
 function QuizTitle:OnClick(obj)
     local objName = obj.name;
-    Log:InfoColor(objName .. " is clicked!")
+    Log:InfoColor(objName .. " is clicked")
     if(objName == "upBg") then
         --show question
+        Log:InfoColor("open question = " .. topQId);
+        EventManager:SendEvent(LuaEvent.ShowQuizQuestion, topQId);
+        self:Close();
     else
         
     end
 end
 
 function QuizTitle:OnClickItem(obj, itemScript)
-    if(itemScript.ItemName == "StartBtn") then
-        
+    if(itemScript.ItemName == "QItem") then
+        local qId = itemScript.Data
+        EventManager:SendEvent(LuaEvent.ShowQuizQuestion, qId);
+        self:Close();
     end
 end
 
@@ -59,6 +66,7 @@ end
 function QuizTitle:OnShow()
     --top
     local topId = QuizModule:GetTodyQuestion();
+    topQId = topId;
     local uiScript = self:GetUIScript();
     local texture = ResourceManager:LoadPath(UIRes:GetPath(QuizModule:GetTitleImgResId(topId)));
     uiScript.List_Texture[0].mainTexture = texture;

@@ -11,3 +11,4 @@ UIPath.PlayerAttr = {id = 2, res = 10002, uiName = "PlayerAttr", layer = UILayer
 
 UIPath.QuizMain = {id = 3, res = 10003, uiName = "QuizMain", layer = UILayer.Pop};
 UIPath.QuizTitle = {id = 4, res = 10004, uiName = "QuizTitle", layer = UILayer.Pop};
+UIPath.QuizQuestion = {id = 5, res = 10005, uiName = "QuizQuestion", layer = UILayer.Pop};

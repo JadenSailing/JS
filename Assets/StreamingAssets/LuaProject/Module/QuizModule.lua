@@ -3,6 +3,7 @@
 
 require "UI/Quiz/QuizMain";
 require "UI/Quiz/QuizTitle";
+require "UI/Quiz/QuizQuestion";
 
 QuizModule = BaseModule:New(ModuleCfg.QuizModule);
 
@@ -151,11 +152,15 @@ function QuizModule:Init()
         local resId = self:GetTitleImgResId(qId);
         UIRes:AddRes(resId, self:GetTitleImagePath(qId));
     end
+
+    EventManager:Register(LuaEvent.ShowQuizQuestion, self);
 end
 
 function QuizModule:OnEvent(p_event, p_param)
     if(p_event == DataEvent.StartUp) then
         QuizTitle:Open();
+    elseif(p_event == LuaEvent.ShowQuizQuestion) then
+        QuizQuestion:TryOpen(p_param[1]);
     end
 end
 
@@ -166,6 +171,11 @@ end
 function QuizModule:GetTitleImagePath(qId)
     return QuizModule.BasePath .. QuizModule.TitleImage .. tostring(qId);
 end
+
+function QuizModule:GetQuestionImagePath(qId, index)
+    return QuizModule.BasePath .. QuizModule.QuestionImage .. tostring(qId) .. "/questionImage_" .. index;
+end
+
 --[[
 
 function QuizModule:GetQuestionImage(qId, sId)
@@ -179,6 +189,10 @@ end
 
 function QuizModule:GetQuizJson(qId)
     return QuizModule.BasePath .. QuizModule.Quiz .. tostring(qId);
+end
+
+function QuizModule:GetQuizData(qId)
+    return QuizData[qId];
 end
 
 function QuizModule:GetTitleDesc(qId)
