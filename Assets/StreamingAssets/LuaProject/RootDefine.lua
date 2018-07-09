@@ -1,5 +1,8 @@
 --[Comment]
 --基础定义&核心类定义&顶级方法
+
+LocalDataManager = LocalDataManager.Instance;
+
 require "Util/Log"
 require "Util/EventManager";
 require "Define/ModuleCfg";
@@ -12,6 +15,7 @@ require "Define/UIRes";
 require "UI/BaseUI";
 require "Util/Invoke";
 require "Util/Helper";
+require "Util/LocalData";
 require "Util/ResourceManager";
 require "Util/TextureManager";
 require "Util/UIManager";

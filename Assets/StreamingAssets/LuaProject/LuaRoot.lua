@@ -27,6 +27,7 @@ function RemoveUpdate(tableName)
 end
 
 function RootUpdate()
+    --Log:InfoColor(Helper:GetTime() .. ", " .. Helper:GetTimeByDay());
     local currentTime = Time.realtimeSinceStartup;
     --先处理注册和移除的帧监听
     if(not table.isEmpty(waitingUpdateDict)) then

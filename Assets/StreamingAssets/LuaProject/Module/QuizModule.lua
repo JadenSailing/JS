@@ -132,6 +132,9 @@ QuizModule.Quiz = "quiz/";
 
 local QuizData = {};
 
+local TodayQuestion = -1;
+local TodayTopQuestion = {};
+
 function QuizModule:Init()
     --数据初始化
     for i = 1, QuizDefine.MaxQuestion do
@@ -140,6 +143,22 @@ function QuizModule:Init()
         local jsonData = JsonDecode(tostring(jsonStr));
         QuizData[qId] = jsonData;
     end
+
+    --TodayQuestion
+    TodayQuestion = LocalData:GetInt(LocalData.Key.TodayQuestion);
+    if(TodayQuestion > 0) then
+        for i = 1, QuizDefine.TodayTopNum do
+            local qId = LocalData:GetInt(LocalData.Key.TodayTopQuestion .. "_" .. i);
+            TodayTopQuestion[i] = qId;
+        end
+    end
+
+    Log:InfoColor("today = " .. TodayQuestion);
+    Log:InfoColor(TodayTopQuestion[1]);
+    Log:InfoColor(TodayTopQuestion[2]);
+    Log:InfoColor(TodayTopQuestion[3]);
+    Log:InfoColor(TodayTopQuestion[4]);
+    Log:InfoColor(TodayTopQuestion[5]);
 
     --UI监听
     QuizMain:Init()
@@ -203,23 +222,52 @@ function QuizModule:GetTitleDesc(qId)
     return data["quizTitle"];
 end
 
-function QuizModule:GetTodyQuestion()
+function QuizModule:RandomTodayQuestion()
+    local date = LocalData:GetInt(LocalData.Key.Today);
+    local todayDate = Helper:GetTimeByDay();
+    Log:InfoColor("todayQuestion = " .. TodayQuestion);
+    Log:InfoColor("date = " .. date .. ", todayDate = " .. todayDate);
+    Log:InfoColor(tostring(TodayQuestion > 0));
+    Log:InfoColor(tostring(date == todayDate));
+    if(TodayQuestion > 0 and date == todayDate) then
+        return;
+    end
+
+    --up
     local n = QuizDefine.MaxQuestion;
     local rand = LuaHelper.Next(n);
-    return rand + QuizDefine.QuestionStartID;
-end
+    TodayQuestion = rand + QuizDefine.QuestionStartID;
 
-function QuizModule:GetRandomQuestions(qNum)
-    local n = QuizDefine.MaxQuestion;
-    local ret = {};
+    --top5
+    TodayTopQuestion = {}
+    local qNum = QuizDefine.TodayTopNum;
     for i = 1, n do
         if(LuaHelper.Next(n - i + 1) < qNum) then
             qNum = qNum - 1;
-            ret[#ret+1] = i + QuizDefine.QuestionStartID - 1;
+            TodayTopQuestion[#TodayTopQuestion+1] = i + QuizDefine.QuestionStartID - 1;
             if(qNum <= 0) then
                 break;
             end
         end
     end
-    return ret;
+
+    LocalData:SetInt(LocalData.Key.Today, todayDate);
+
+    LocalData:SetInt(LocalData.Key.TodayQuestion, TodayQuestion);
+
+    for i = 1, QuizDefine.TodayTopNum do
+        LocalData:SetInt(LocalData.Key.TodayTopQuestion .. "_" .. i, TodayTopQuestion[i]);
+    end
+
+    LocalData:SaveData();
+end
+
+function QuizModule:GetTodyQuestion()
+    self:RandomTodayQuestion();
+    return TodayQuestion;
+end
+
+function QuizModule:GetRandomQuestions(qNum)
+    self:RandomTodayQuestion();
+    return TodayTopQuestion;
 end

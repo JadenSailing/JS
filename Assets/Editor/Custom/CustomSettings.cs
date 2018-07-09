@@ -67,6 +67,7 @@ public static class CustomSettings
         _GT(typeof(TestProtol)),
 
         _GT(typeof(LuaHelper)),
+        _GT(typeof(LocalDataManager)),
 
         _GT(typeof(NGUITools)),
 
