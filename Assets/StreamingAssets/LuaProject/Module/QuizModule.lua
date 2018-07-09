@@ -154,11 +154,6 @@ function QuizModule:Init()
     end
 
     Log:InfoColor("today = " .. TodayQuestion);
-    Log:InfoColor(TodayTopQuestion[1]);
-    Log:InfoColor(TodayTopQuestion[2]);
-    Log:InfoColor(TodayTopQuestion[3]);
-    Log:InfoColor(TodayTopQuestion[4]);
-    Log:InfoColor(TodayTopQuestion[5]);
 
     --UI监听
     QuizMain:Init()
