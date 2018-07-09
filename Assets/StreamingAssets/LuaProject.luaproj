@@ -203,6 +203,7 @@
     <Compile Include="LuaProject\RootDefine.lua" />
     <Compile Include="LuaProject\LuaRoot.lua" />
     <Compile Include="LuaProject\Util\EventManager.lua" />
+    <Compile Include="LuaProject\Util\Helper.lua" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LuaProject\Build.bat" />
