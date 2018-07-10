@@ -81,6 +81,7 @@ function QuizTitle:OnShow()
     --]]
 
     uiScript.List_Label[0].text = QuizModule:GetTitleDesc(topId);
+    
     uiScript.List_Label[1].text = "Today's Special";
 
     uiScript.List_Label[2].text = "Hottest Quiz";
