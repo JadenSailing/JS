@@ -9,6 +9,7 @@ UIRes[10002] = {id = 1002, path = "Pack/UI/playerAttribute/PlayerAttr"};
 UIRes[10003] = {id = 1003, path = "Pack/UI/quiz/UI/QuizMain"};
 UIRes[10004] = {id = 1004, path = "Pack/UI/quiz/UI/QuizTitle"};
 UIRes[10005] = {id = 1005, path = "Pack/UI/quiz/UI/QuizQuestion"};
+UIRes[10006] = {id = 1006, path = "Pack/UI/quiz/UI/QuizAnswer"};
 
 function UIRes:AddRes(id, path)
     UIRes[id] = {id = id, path = path};

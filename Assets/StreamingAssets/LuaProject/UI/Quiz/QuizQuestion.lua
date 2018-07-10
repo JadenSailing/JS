@@ -73,7 +73,7 @@ function QuizQuestion:ShowQuestion()
     local qArray = data["questionsArray"]
     if(currentQIndex > #qArray) then
         self:Close();
-        QuizTitle:Open();
+        QuizAnswer:TryOpen(currentQId, 1);
         return;
     end
 

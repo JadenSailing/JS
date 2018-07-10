@@ -4,6 +4,7 @@
 require "UI/Quiz/QuizMain";
 require "UI/Quiz/QuizTitle";
 require "UI/Quiz/QuizQuestion";
+require "UI/Quiz/QuizAnswer";
 
 QuizModule = BaseModule:New(ModuleCfg.QuizModule);
 
@@ -125,7 +126,7 @@ QuizModule.Quiz = "quiz/";
             "resultTitle": "Pumpkin Patch!",
             "resultImageUrl": "questionImage//10001//resultImage_3.jpg",
             "resultDescription": "You're basic, but you're kind of okay with that. If doing it for the Insta while wearing Uggs and drinking a PSL is wrong, you don't want to be right. Maybe think about how you can elevate your next snap: drone photography, perhaps?"
-        }
+        }   
     ]
 }
 --]]
@@ -187,7 +188,23 @@ function QuizModule:GetTitleImagePath(qId)
 end
 
 function QuizModule:GetQuestionImagePath(qId, index)
-    return QuizModule.BasePath .. QuizModule.QuestionImage .. tostring(qId) .. "/questionImage_" .. index;
+    local path = QuizModule.BasePath .. self:GetQuizData(qId)["questionsArray"][index]["questionImageUrl"];
+    local dotIndex = string.find(path, "%.")
+    path = string.sub(path, 1, dotIndex - 1);
+    path = string.gsub(path, "//", "/");
+    return path;
+end
+
+function QuizModule:GetAnswerImagePath(qId, index)
+    local path = QuizModule.BasePath .. self:GetQuizData(qId)["resultArray"][index]["resultImageUrl"];
+    local dotIndex = string.find(path, "%.")
+    if(dotIndex == nil) then
+        return self:GetTitleImagePath(qId);
+    end
+    path = string.sub(path, 1, dotIndex - 1);
+    path = string.gsub(path, "//", "/");
+    Log:InfoColor("path=" .. path);
+    return path;
 end
 
 --[[
