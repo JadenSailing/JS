@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>E439935D-B2A2-46AE-856D-2AA408428F33</ProjectGuid>
+    <!--$guid1$-->
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="LuaProject\" />
+    <Folder Include="LuaProject\cjson\" />
+    <Folder Include="LuaProject\Define\" />
+    <Folder Include="LuaProject\jit\" />
+    <Folder Include="LuaProject\lpeg\" />
+    <Folder Include="LuaProject\misc\" />
+    <Folder Include="LuaProject\Module\" />
+    <Folder Include="LuaProject\protobuf\" />
+    <Folder Include="LuaProject\socket\" />
+    <Folder Include="LuaProject\System\" />
+    <Folder Include="LuaProject\System\Reflection\" />
+    <Folder Include="LuaProject\ToLua\" />
+    <Folder Include="LuaProject\ToLua\cjson\" />
+    <Folder Include="LuaProject\ToLua\jit\" />
+    <Folder Include="LuaProject\ToLua\lpeg\" />
+    <Folder Include="LuaProject\ToLua\misc\" />
+    <Folder Include="LuaProject\ToLua\protobuf\" />
+    <Folder Include="LuaProject\ToLua\socket\" />
+    <Folder Include="LuaProject\ToLua\System\" />
+    <Folder Include="LuaProject\ToLua\System\Reflection\" />
+    <Folder Include="LuaProject\ToLua\UnityEngine\" />
+    <Folder Include="LuaProject\UI\" />
+    <Folder Include="LuaProject\UI\Base\" />
+    <Folder Include="LuaProject\UI\Quiz\" />
+    <Folder Include="LuaProject\UI\PlayerAttr\" />
+    <Folder Include="LuaProject\UnityEngine\" />
+    <Folder Include="LuaProject\Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LuaProject\cjson\util.lua" />
+    <Compile Include="LuaProject\Define\LuaEvent.lua" />
+    <Compile Include="LuaProject\Define\DataEvent.lua" />
+    <Compile Include="LuaProject\Define\ModuleCfg.lua" />
+    <Compile Include="LuaProject\Define\QuizDefine.lua" />
+    <Compile Include="LuaProject\Define\UIRes.lua" />
+    <Compile Include="LuaProject\Define\UIPath.lua" />
+    <Compile Include="LuaProject\event.lua" />
+    <Compile Include="LuaProject\jit\bc.lua" />
+    <Compile Include="LuaProject\jit\bcsave.lua" />
+    <Compile Include="LuaProject\jit\dis_arm.lua" />
+    <Compile Include="LuaProject\jit\dis_arm64.lua" />
+    <Compile Include="LuaProject\jit\dis_arm64be.lua" />
+    <Compile Include="LuaProject\jit\dis_mips.lua" />
+    <Compile Include="LuaProject\jit\dis_mips64.lua" />
+    <Compile Include="LuaProject\jit\dis_mips64el.lua" />
+    <Compile Include="LuaProject\jit\dis_mipsel.lua" />
+    <Compile Include="LuaProject\jit\dis_ppc.lua" />
+    <Compile Include="LuaProject\jit\dis_x64.lua" />
+    <Compile Include="LuaProject\jit\dis_x86.lua" />
+    <Compile Include="LuaProject\jit\dump.lua" />
+    <Compile Include="LuaProject\jit\p.lua" />
+    <Compile Include="LuaProject\jit\v.lua" />
+    <Compile Include="LuaProject\jit\vmdef.lua" />
+    <Compile Include="LuaProject\jit\zone.lua" />
+    <Compile Include="LuaProject\list.lua" />
+    <Compile Include="LuaProject\lpeg\re.lua" />
+    <Compile Include="LuaProject\ltn12.lua" />
+    <Compile Include="LuaProject\Main.lua" />
+    <Compile Include="LuaProject\mime.lua" />
+    <Compile Include="LuaProject\misc\functions.lua" />
+    <Compile Include="LuaProject\misc\strict.lua" />
+    <Compile Include="LuaProject\misc\utf8.lua" />
+    <Compile Include="LuaProject\Module\QuizModule.lua" />
+    <Compile Include="LuaProject\Module\PlayerModule.lua" />
+    <Compile Include="LuaProject\Module\RequireModule.lua" />
+    <Compile Include="LuaProject\protobuf\containers.lua" />
+    <Compile Include="LuaProject\protobuf\decoder.lua" />
+    <Compile Include="LuaProject\protobuf\descriptor.lua" />
+    <Compile Include="LuaProject\protobuf\encoder.lua" />
+    <Compile Include="LuaProject\protobuf\listener.lua" />
+    <Compile Include="LuaProject\protobuf\protobuf.lua" />
+    <Compile Include="LuaProject\protobuf\text_format.lua" />
+    <Compile Include="LuaProject\protobuf\type_checkers.lua" />
+    <Compile Include="LuaProject\protobuf\wire_format.lua" />
+    <Compile Include="LuaProject\slot.lua" />
+    <Compile Include="LuaProject\socket.lua" />
+    <Compile Include="LuaProject\socket\ftp.lua" />
+    <Compile Include="LuaProject\socket\headers.lua" />
+    <Compile Include="LuaProject\socket\http.lua" />
+    <Compile Include="LuaProject\socket\mbox.lua" />
+    <Compile Include="LuaProject\socket\smtp.lua" />
+    <Compile Include="LuaProject\socket\tp.lua" />
+    <Compile Include="LuaProject\socket\url.lua" />
+    <Compile Include="LuaProject\System\coroutine.lua" />
+    <Compile Include="LuaProject\System\Reflection\BindingFlags.lua" />
+    <Compile Include="LuaProject\System\Timer.lua" />
+    <Compile Include="LuaProject\System\ValueType.lua" />
+    <Compile Include="LuaProject\tolua.lua" />
+    <Compile Include="LuaProject\ToLua\cjson\util.lua" />
+    <Compile Include="LuaProject\ToLua\event.lua" />
+    <Compile Include="LuaProject\ToLua\jit\bc.lua" />
+    <Compile Include="LuaProject\ToLua\jit\bcsave.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_arm.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_arm64.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_arm64be.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_mips.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_mips64.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_mips64el.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_mipsel.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_ppc.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_x64.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dis_x86.lua" />
+    <Compile Include="LuaProject\ToLua\jit\dump.lua" />
+    <Compile Include="LuaProject\ToLua\jit\p.lua" />
+    <Compile Include="LuaProject\ToLua\jit\v.lua" />
+    <Compile Include="LuaProject\ToLua\jit\vmdef.lua" />
+    <Compile Include="LuaProject\ToLua\jit\zone.lua" />
+    <Compile Include="LuaProject\ToLua\list.lua" />
+    <Compile Include="LuaProject\ToLua\lpeg\re.lua" />
+    <Compile Include="LuaProject\ToLua\ltn12.lua" />
+    <Compile Include="LuaProject\ToLua\mime.lua" />
+    <Compile Include="LuaProject\ToLua\misc\functions.lua" />
+    <Compile Include="LuaProject\ToLua\misc\strict.lua" />
+    <Compile Include="LuaProject\ToLua\misc\utf8.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\containers.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\decoder.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\descriptor.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\encoder.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\listener.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\protobuf.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\text_format.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\type_checkers.lua" />
+    <Compile Include="LuaProject\ToLua\protobuf\wire_format.lua" />
+    <Compile Include="LuaProject\ToLua\slot.lua" />
+    <Compile Include="LuaProject\ToLua\socket.lua" />
+    <Compile Include="LuaProject\ToLua\socket\ftp.lua" />
+    <Compile Include="LuaProject\ToLua\socket\headers.lua" />
+    <Compile Include="LuaProject\ToLua\socket\http.lua" />
+    <Compile Include="LuaProject\ToLua\socket\mbox.lua" />
+    <Compile Include="LuaProject\ToLua\socket\smtp.lua" />
+    <Compile Include="LuaProject\ToLua\socket\tp.lua" />
+    <Compile Include="LuaProject\ToLua\socket\url.lua" />
+    <Compile Include="LuaProject\ToLua\System\coroutine.lua" />
+    <Compile Include="LuaProject\ToLua\System\Reflection\BindingFlags.lua" />
+    <Compile Include="LuaProject\ToLua\System\Timer.lua" />
+    <Compile Include="LuaProject\ToLua\System\ValueType.lua" />
+    <Compile Include="LuaProject\ToLua\tolua.lua" />
+    <Compile Include="LuaProject\ToLua\typeof.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Bounds.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Color.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\LayerMask.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Mathf.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Plane.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Quaternion.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Ray.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\RaycastHit.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Time.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Touch.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Vector2.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Vector3.lua" />
+    <Compile Include="LuaProject\ToLua\UnityEngine\Vector4.lua" />
+    <Compile Include="LuaProject\Module\BaseModule.lua" />
+    <Compile Include="LuaProject\typeof.lua" />
+    <Compile Include="LuaProject\UI\PlayerAttr\PlayerAttr.lua" />
+    <Compile Include="LuaProject\UI\Base\PlayerHeadUI.lua" />
+    <Compile Include="LuaProject\UI\Quiz\QuizMain.lua" />
+    <Compile Include="LuaProject\UI\Quiz\QuizTitle.lua" />
+    <Compile Include="LuaProject\UnityEngine\Bounds.lua" />
+    <Compile Include="LuaProject\UnityEngine\Color.lua" />
+    <Compile Include="LuaProject\UnityEngine\LayerMask.lua" />
+    <Compile Include="LuaProject\UnityEngine\Mathf.lua" />
+    <Compile Include="LuaProject\UnityEngine\Plane.lua" />
+    <Compile Include="LuaProject\UnityEngine\Quaternion.lua" />
+    <Compile Include="LuaProject\UnityEngine\Ray.lua" />
+    <Compile Include="LuaProject\UnityEngine\RaycastHit.lua" />
+    <Compile Include="LuaProject\UnityEngine\Time.lua" />
+    <Compile Include="LuaProject\UnityEngine\Touch.lua" />
+    <Compile Include="LuaProject\UnityEngine\Vector2.lua" />
+    <Compile Include="LuaProject\UnityEngine\Vector3.lua" />
+    <Compile Include="LuaProject\UnityEngine\Vector4.lua" />
+    <Compile Include="LuaProject\Util\Log.lua" />
+    <Compile Include="LuaProject\Util\Invoke.lua" />
+    <Compile Include="LuaProject\Util\TextureManager.lua" />
+    <Compile Include="LuaProject\Util\ResourceManager.lua" />
+    <Compile Include="LuaProject\Util\UIManager.lua" />
+    <Compile Include="LuaProject\UI\BaseUI.lua" />
+    <Compile Include="LuaProject\Module\MainUIModule.lua" />
+    <Compile Include="LuaProject\Define\UILayer.lua" />
+    <Compile Include="LuaProject\RootDefine.lua" />
+    <Compile Include="LuaProject\LuaRoot.lua" />
+    <Compile Include="LuaProject\Util\EventManager.lua" />
+    <Compile Include="LuaProject\Util\Helper.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LuaProject\Build.bat" />
+    <Content Include="LuaProject\ToLua\Build.bat" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>
