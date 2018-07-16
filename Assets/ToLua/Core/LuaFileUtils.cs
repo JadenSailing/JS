@@ -168,7 +168,11 @@ namespace LuaInterface
         {
 			byte[] str = null;
 			string path = FindFile(fileName);
+#if UNITY_ANDROID
+            str = ResourceManager_Lua.Instance.LoadBytes(path);
+#else
 			str = File.ReadAllBytes(path);
+#endif
 			return str;
 			/*
             if (!beZip)
