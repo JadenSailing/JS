@@ -145,6 +145,8 @@ namespace LuaInterface
 #if UNITY_ANDROID
             fullPath = "Lua/" + fileName + ".lua";
             return fullPath;
+			#elif UNITY_IOS || UNITY_STANDALONE_OSX
+			return Application.streamingAssetsPath + "/LuaProject/" + fileName + ".lua";
 #else
 
             for (int i = 0; i < searchPaths.Count; i++)
@@ -164,6 +166,11 @@ namespace LuaInterface
 
         public virtual byte[] ReadFile(string fileName)
         {
+			byte[] str = null;
+			string path = FindFile(fileName);
+			str = File.ReadAllBytes(path);
+			return str;
+			/*
             if (!beZip)
             {
                 string path = FindFile(fileName);
@@ -188,6 +195,7 @@ namespace LuaInterface
             {
                 return ReadZipFile(fileName);
             }
+            */
         }        
 
         public virtual string FindFileError(string fileName)
